@@ -1,0 +1,1403 @@
+<configs>
+
+	<!-- *** lootprobtemplate *** -->
+	
+	
+	<!--  -->
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='veryLowDelayed']/loot[@level='0,14']/@prob">.05</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='veryLow']/loot/@prob">.06</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0Delayed']/loot[@level='0,14']/@prob">.5</set>
+	<!--  -->
+	<insertAfter xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='veryLowDelayed']">
+	<lootprobtemplate name="exVeryLow">
+		<loot level="1,999999" prob=".04"/>
+	</lootprobtemplate>
+	<lootprobtemplate name="legendLow">
+		<loot level="1,999999" prob=".01"/>
+	</lootprobtemplate>
+	<lootprobtemplate name="legendMed">
+		<loot level="1,999999" prob=".02"/>
+	</lootprobtemplate>
+	<lootprobtemplate name="legendHigh">
+		<loot level="1,999999" prob=".03"/>
+	</lootprobtemplate>
+	<lootprobtemplate name="veryHigh">
+		<loot level="1,999999" prob=".9"/>
+	</lootprobtemplate>
+	
+	<lootprobtemplate name="ProbT0Cap"> <!-- 40 - 80 -->
+		<loot level="0,40" prob="1"/>
+		<loot level="41,43" prob="0.90"/>
+		<loot level="44,45" prob="0.87"/>
+		<loot level="46,48" prob="0.84"/>
+		<loot level="49,50" prob="0.81"/>
+		<loot level="51,52" prob="0.78"/>
+		<loot level="53,55" prob="0.75"/>
+		<loot level="56,57" prob="0.72"/>
+		<loot level="58,60" prob="0.69"/>
+		<loot level="61,62" prob="0.66"/>
+		<loot level="63,64" prob="0.63"/>
+		<loot level="65,67" prob="0.60"/>
+		<loot level="68,79" prob="0.57"/>
+		<loot level="80,89" prob="0.54"/>
+		<loot level="90,99" prob="0.51"/>
+		<loot level="100,119" prob="0.48"/>
+		<loot level="120,139" prob="0.45"/>
+		<loot level="140,999999" prob="0.43"/>
+	</lootprobtemplate>
+	
+	</insertAfter>
+	<!--  -->
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='0,1']/@level">0,1</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='0,1']/@prob">0.9</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='3,4']/@level">2,3</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='2,3']/@prob">0.89</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='5,7']/@level">4,5</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='4,5']/@prob">0.88</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='8,9']/@level">6,7</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='6,7']/@prob">0.87</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='10,12']/@level">8,9</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='8,9']/@prob">0.86</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='13,14']/@level">10,11</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='10,11']/@prob">0.85</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='15,16']/@level">12,13</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='12,13']/@prob">0.84</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='17,19']/@level">14,15</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='14,15']/@prob">0.82</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='20,21']/@level">16,17</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='16,17']/@prob">0.8</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='22,24']/@level">18,19</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='18,19']/@prob">0.75</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='25,26']/@level">20,21</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='20,21']/@prob">0.7</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='27,28']/@level">22,23</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='22,23']/@prob">0.6</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='29,31']/@level">24,25</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='24,25']/@prob">0.5</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='32,33']/@level">26,27</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='26,27']/@prob">0.45</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='34,36']/@level">28,29</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='28,29']/@prob">0.4</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='37,38']/@level">30,31</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='30,31']/@prob">0.35</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='39,40']/@level">32,33</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='32,33']/@prob">0.3</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='41,43']/@level">34,35</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='34,35']/@prob">0.25</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='44,45']/@level">36,37</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='36,37']/@prob">0.2</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='46,48']/@level">38,39</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='38,39']/@prob">0.15</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='49,50']/@level">40,41</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='40,41']/@prob">0.12</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='51,52']/@level">42,43</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='42,43']/@prob">0.09</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='53,55']/@level">44,45</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='44,45']/@prob">0.07</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='56,57']/@level">46,47</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='46,47']/@prob">0.05</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='58,60']/@level">48,49</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='48,49']/@prob">0.04</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='61,62']/@level">50,51</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='50,51']/@prob">0.03</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='63,64']/@level">52,53</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='52,53']/@prob">0.02</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='65,67']/@level">54,55</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='54,55']/@prob">0.01</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='68,999999']/@level">56,999999</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']/loot[@level='56,999999']/@prob">0</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1']/loot[@level='0,38']/@level">0,38</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1']/loot[@level='0,38']/@prob">0.01</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1Cap']/loot[@level='0,38']/@level">0,38</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1Cap']/loot[@level='0,38']/@prob">0.01</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT2']/loot[@level='0,79']/@level">0,79</set>
+	<set xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT2']/loot[@level='0,79']/@prob">0.001</set>
+	<!--
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualBaseTemplate']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualBaseTemplate']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualBaseTemplate']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualBaseTemplate']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualBaseTemplate']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPlus1Template']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPlus1Template']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPlus1Template']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPlus1Template']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPlus1Template']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPrimitiveItemsTemplate']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPrimitiveItemsTemplate']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPrimitiveItemsTemplate']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='qualPrimitiveItemsTemplate']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT1QualTemplate']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT1QualTemplate']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT1QualTemplate']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT1QualTemplate']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT2QualTemplate']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT2QualTemplate']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT2QualTemplate']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT2QualTemplate']/qualitytemplate[@default_quality='3']/@default_quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT2QualTemplate']/qualitytemplate[@default_quality='4']/@default_quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT3QualTemplate']/qualitytemplate/loot[@quality='4']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT3QualTemplate']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT3QualTemplate']/qualitytemplate[@default_quality='4']/@default_quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='questT3QualTemplate']/qualitytemplate[@default_quality='5']/@default_quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT0']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT1']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT2']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate/loot[@quality='2']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate/loot[@quality='3']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate/loot[@quality='4']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='QLTemplateT3']/qualitytemplate/loot[@quality='5']/@quality">2</set>
+	
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='armorQualityTemplate']/qualitytemplate/loot[@quality='1']/@quality">1</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='armorQualityTemplate']/qualitytemplate/loot[@quality='2']/@quality">2</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='armorQualityTemplate']/qualitytemplate/loot[@quality='3']/@quality">3</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='armorQualityTemplate']/qualitytemplate/loot[@quality='4']/@quality">4</set>
+	<set xpath="/lootcontainers/lootqualitytemplates/lootqualitytemplate[@name='armorQualityTemplate']/qualitytemplate/loot[@quality='5']/@quality">4</set>
+	-->
+	
+	
+	<!-- *** lootgroup *** -->
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']">
+	<lootgroup name="resourcePaper100">
+	<item name="resourcePaper" count="100"/>
+	</lootgroup>
+	</insertAfter>
+	
+	<!-- Parts Looting -->
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupArmorParts']">
+	
+	<lootgroup name="group_Parts">
+	<item name="meleeWpnSpearT3SteelSpearParts" count="1"/>
+	<item name="meleeWpnClubT3SteelClubParts" count="1"/>
+	<item name="meleeWpnSledgeT3SteelSledgehammerParts" count="1"/>
+	<item name="meleeWpnKnucklesT3SteelKnucklesParts" count="1"/>
+	<item name="meleeWpnBladeT3MacheteParts" count="1"/>
+	<item name="meleeWpnBatonT2StunBatonParts" count="1"/>
+	<item name="gunMGT1AK47Parts" count="1"/>
+	<item name="gunHandgunT1PistolParts" count="1"/>
+	<item name="gunBowT1WoodenBowParts" count="1"/>
+	<item name="gunRifleT1HuntingRifleParts" count="1"/>
+	<item name="gunShotgunT1DoubleBarrelParts" count="1"/>
+	<item name="gunExplosivesT3RocketLauncherParts" count="1"/>
+	<item name="gunBotRoboticsParts" count="1"/>
+	<item name="meleeToolAllSteelParts" count="1"/>
+	<item name="meleeToolAxeT3ChainsawParts" count="1"/>
+	</lootgroup>
+	
+	</insertBefore>
+	
+	<!-- Medical Looting -->
+	
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='medicalFirstAidBandage']" name="loot_prob_template">exVeryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='medicalAloeCream']" name="loot_prob_template">medLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='medicalBandage']" name="loot_prob_template">high</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='foodHoney']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='drugHerbalAntibiotics']/@loot_prob_template">exVeryLow</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='drugPainkillers']" name="loot_prob_template">exVeryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='drugVitamins']" name="loot_prob_template">exVeryLow</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='medicalSplint']/@loot_prob_template">low</set>
+	
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='resourceCloth']" name="loot_prob_template">high</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='resourceScrapPolymers']" name="loot_prob_template">high</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='resourcePaper']" name="loot_prob_template">low</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='medicalBandage']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='drugVitamins']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='drugPainkillers']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='drugSteroids']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='medicalBloodBag']/@loot_prob_template">medHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalAll']/item[@name='medicalFirstAidKit']/@loot_prob_template">veryLow</set>
+	
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalCommon']/item[@name='resourceCloth']" name="loot_prob_template">veryHigh</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalCommon']/item[@name='resourceScrapPolymers']" name="loot_prob_template">veryHigh</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalCommon']/item[@name='resourcePaper']" name="loot_prob_template">med</setattribute>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']"><item name="foodHoney" loot_prob_template="legendLow"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']"><item name="medicalAloeCream" loot_prob_template="veryLow"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']"><item name="medicalBandage" loot_prob_template="veryHigh"/></append>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']/item[@name='drugVitamins']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']/item[@name='drugPainkillers']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']/item[@name='drugSteroids']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalUncommon']/item[@name='medicalFirstAidBandage']" name="loot_prob_template">low</setattribute>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']"><item name="medicalFirstAidBandage" count="1" loot_prob_template="veryHigh"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']"><item name="foodHoney" loot_prob_template="legendLow"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']"><item name="drugHerbalAntibiotics" loot_prob_template="medLow"/></append>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']/item[@name='medicalFirstAidKit']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']/item[@name='drugFortBites']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']/item[@name='drugRecog']" name="loot_prob_template">veryLow</setattribute>
+	
+	
+	
+	
+	
+	<!-- toolForge Looting -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']/item[@name='toolForgeCrucible']/@loot_prob_template">legendLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs03']/item[@group='workstationToolsScaled']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupForge']/item[@group='workstationToolsScaled']/@loot_prob_template">exVeryLow</set>
+	
+	
+	<!-- LegendaryParts -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmorParts03']/item[@name='resourceLegendaryParts']/@loot_prob_template">legendLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmorPartsChests']/item[@name='resourceLegendaryParts']/@loot_prob_template">legendLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestArmorResources']/item[@name='resourceLegendaryParts']/@count">3</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestArmorResources']/item[@name='resourceLegendaryParts']/@name">resourceAcid</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupTreasureHunter5']/item[@name='resourceLegendaryParts']/@loot_prob_template">low</set>
+	
+	
+	<!-- Parts Convert Crafting -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_Demolitionist']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">thrownGrenadeContact</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_DemolitionistTPlus']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">thrownGrenadeContact</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item/@count">5,10</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnSpearT3SteelSpearParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnClubT3SteelClubParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnBladeT3MacheteParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_MeleeParts']/item[@name='meleeWpnBatonT2StunBatonParts']/@name">resourceSpring</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item/@count">10,40</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunMGT1AK47Parts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunHandgunT1PistolParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunBowT1WoodenBowParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunRifleT1HuntingRifleParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunShotgunT1DoubleBarrelParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeapons_RangedParts']/item[@name='gunBotRoboticsParts']/@name">resourceGunPowder</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='toolParts']/item[@name='meleeToolAllSteelParts']/@name">resourceRocketCasing</set>
+	<set xpath="/lootcontainers/lootgroup[@name='toolParts']/item[@name='meleeToolAxeT3ChainsawParts']/@name">resourceRocketCasing</set>
+	<set xpath="/lootcontainers/lootgroup[@name='toolParts']/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/@name">resourceRocketCasing</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item/@count">5,15</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunMGT1AK47Parts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunHandgunT1PistolParts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunBowT1WoodenBowParts']/@name">resourceGunPowder</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunRifleT1HuntingRifleParts']/@name">resourceRocketTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunShotgunT1DoubleBarrelParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">resourceRocketTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='gunBotRoboticsParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnBatonT2StunBatonParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnBladeT3MacheteParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnSpearT3SteelSpearParts']/@name">resourceRocketTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnClubT3SteelClubParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/@name">resourceSpring</set>
+	<set xpath="/lootcontainers/lootgroup[@name='weaponParts']/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']/@name">resourceSpring</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item/@count">10,40</set>
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item[@name='gunMGT1AK47Parts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item[@name='gunHandgunT1PistolParts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item[@name='gunRifleT1HuntingRifleParts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item[@name='gunShotgunT1DoubleBarrelParts']/@name">resourceBulletTip</set>
+	<set xpath="/lootcontainers/lootgroup[@name='gunPartsOnly']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">resourceBulletTip</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']/item[@name='meleeWpnBladeT3MacheteParts']/@name">resourceRocketTip</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupStunBaton']/item[@name='meleeWpnBatonT2StunBatonParts']/@name">roboticsSkillMagazine</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupDrone']/item/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupDrone']/item[@name='gunBotRoboticsParts']/@name">roboticsSkillMagazine</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupRobotics']/item/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupRobotics']/item[@name='gunBotRoboticsParts']/@name">roboticsSkillMagazine</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate01']/item/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate01']/item[@name='gunBowT1WoodenBowParts']/@name">bowsSkillMagazine</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackLab01']/item[@name='gunBotRoboticsParts']/@name">resourceSewingKit</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackUtility01']/item[@name='meleeToolAllSteelParts']/@name">resourceSewingKit</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackUtility01']/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/@name">resourceSewingKit</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier01']/item[@name='gunHandgunT1PistolParts']/@name">handgunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier01']/item[@name='gunRifleT1HuntingRifleParts']/@name">riflesSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier01']/item[@name='gunShotgunT1DoubleBarrelParts']/@name">shotgunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier01']/item[@name='gunMGT1AK47Parts']/@name">machineGunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier01']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">explosivesSkillMagazine</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug01']/item[@name='gunHandgunT1PistolParts']/@name">handgunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug01']/item[@name='gunRifleT1HuntingRifleParts']/@name">riflesSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug01']/item[@name='gunShotgunT1DoubleBarrelParts']/@name">shotgunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug01']/item[@name='gunMGT1AK47Parts']/@name">machineGunsSkillMagazine</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug01']/item[@name='gunExplosivesT3RocketLauncherParts']/@name">explosivesSkillMagazine</set>
+	
+	
+	<!-- Ammo Convert AmmoParts -->
+
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceSteelTip" count="1,2" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletCasing" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceGunPowder" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapLead" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapIron" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapBrass" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletTip" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceSteelTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletCasing" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceGunPowder" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapLead" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapIron" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapBrass" count="2,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletTip" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceSteelTip" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceBulletCasing" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceGunPowder" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapLead" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapIron" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']"><item name="resourceScrapBrass" count="4,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceSteelTip" count="1,2" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletCasing" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceGunPowder" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapLead" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapIron" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapBrass" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletTip" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceSteelTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletCasing" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceGunPowder" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapLead" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapIron" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapBrass" count="2,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletTip" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceSteelTip" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceBulletCasing" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceGunPowder" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapLead" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapIron" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']"><item name="resourceScrapBrass" count="4,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceBulletTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceSteelTip" count="1,2" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceGunPowder" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapLead" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapIron" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapBrass" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceBulletTip" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceSteelTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceGunPowder" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapLead" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapIron" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapBrass" count="2,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceBulletTip" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceSteelTip" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceGunPowder" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapLead" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapIron" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']"><item name="resourceScrapBrass" count="4,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceBuckshot" count="6,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceSteelTip" count="1,2" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceScrapPolymers" count="2,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceGunPowder" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceScrapLead" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceScrapIron" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']"><item name="resourceScrapBrass" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceBuckshot" count="12,48" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceSteelTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceScrapPolymers" count="4,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceGunPowder" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceScrapLead" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceScrapIron" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']"><item name="resourceScrapBrass" count="2,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceSteelTip" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceScrapPolymers" count="6,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceGunPowder" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceScrapLead" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceScrapIron" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']"><item name="resourceScrapBrass" count="4,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/></insertAfter>
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='group762mmLarge']">
+	<lootgroup name="group308mmSmall">
+	<item name="ammo308mmBulletBall" count="1" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceBulletTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceSteelTip" count="1,2" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/>
+	<item name="resourceBulletCasing" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceGunPowder" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapLead" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapIron" count="1,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapBrass" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	</lootgroup>
+	<lootgroup name="group308mmMedium">
+	<item name="ammo308mmBulletBall" count="2" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceBulletTip" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceSteelTip" count="1,4" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/>
+	<item name="resourceBulletCasing" count="2,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceGunPowder" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapLead" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapIron" count="2,16" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapBrass" count="2,12" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	</lootgroup>
+	<lootgroup name="group308mmLarge">
+	<item name="ammo308mmBulletBall" count="3" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceBulletTip" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceSteelTip" count="1,6" loot_stage_count_mod="0.01" loot_prob_template="ProbT1Cap"/>
+	<item name="resourceBulletCasing" count="4,8" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceGunPowder" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapLead" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapIron" count="4,32" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	<item name="resourceScrapBrass" count="4,24" loot_stage_count_mod="0.01" loot_prob_template="ProbT0Cap"/>
+	</lootgroup>
+	</insertAfter>
+	
+	<!-- Ammo and AmmoParts counts add -->
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group9mmSmall']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group9mmMedium']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group9mmLarge']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group762mmSmall']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group762mmMedium']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group762mmLarge']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group308mmSmall']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group308mmMedium']" name="count">1,3</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='group308mmLarge']" name="count">1,3</setattribute>
+	
+	<!-- perkFortitudeMastery -->
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderSmall']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderMedium']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderLarge']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingSmall']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingMedium']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingLarge']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipSmall']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipMedium']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipLarge']" name="count">all</setattribute>
+	<!--
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderSmall']"><item name="resourceGunPowder" count="200,300" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderMedium']"><item name="resourceGunPowder" count="250,400" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceGunPowderLarge']"><item name="resourceGunPowder" count="300,500" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingSmall']"><item name="resourceBulletCasing" count="100,200" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingMedium']"><item name="resourceBulletCasing" count="150,300" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletCasingLarge']"><item name="resourceBulletCasing" count="200,400" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipSmall']"><item name="resourceBulletTip" count="100,200" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipMedium']"><item name="resourceBulletTip" count="150,300" tags="ammo762"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupResourceBulletTipLarge']"><item name="resourceBulletTip" count="200,400" tags="ammo762"/></append>
+	-->
+	<!--  -->
+	<!--  -->
+	<!--  -->
+	<!--  -->
+	<!--  -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']/item[@name='drinkJarEmpty']" name="loot_prob_template">veryHigh</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']/item[@name='drinkJarRiverWater']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']/item[@name='drinkJarBoiledWater']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupDrinksCommon']/item[@name='drinkJarPureMineralWater']/@loot_prob_template">exVeryLow</set>
+	
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupDumpsterFood']/item[@name='foodRawMeat']"/>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='seeds']/item/@name">resourceAnimalFat</set>
+	<set xpath="/lootcontainers/lootgroup[@name='seedsNoFlowers']/item/@name">foodCropYuccaFruit</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupToolsT1']/@loot_quality_template">QLTemplateT0</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']/item[@name='resourceRepairKit']/@count">1</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']/item[@name='resourceRepairKit']" name="loot_prob_template">veryLow</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']/item[@name='meleeToolSalvageT1Wrench']/@loot_prob_template">low</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupUtilityItems']/item[@name='resourceRepairKit']/@count">1</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupUtilityItems']/item[@name='resourceRepairKit']" name="loot_prob_template">veryLow</setattribute>
+	<!--  -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']/item[@name='resourcePaper']" name="loot_prob_template">low</setattribute>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']">
+	
+	<item name="ammo9mmBulletBall" count="15" loot_prob_template="QuestT0Prob"/>
+	<item name="ammoShotgunShell" count="5" loot_prob_template="QuestT0Prob"/>
+	<item name="ammo762mmBulletBall" count="15" loot_prob_template="QuestT0Prob"/>
+	<item name="thrownGrenade" count="4" loot_prob_template="QuestT0Prob"/>
+	<item name="thrownAmmoMolotovCocktail" count="4" loot_prob_template="QuestT0Prob"/>
+	
+	<item name="ammo9mmBulletBall" count="20" loot_prob_template="QuestT1Prob"/>
+	<item name="ammoShotgunShell" count="10" loot_prob_template="QuestT1Prob"/>
+	<item name="ammo762mmBulletBall" count="20" loot_prob_template="QuestT1Prob"/>
+	<item name="thrownGrenade" count="8" loot_prob_template="QuestT1Prob"/>
+	<item name="thrownAmmoMolotovCocktail" count="8" loot_prob_template="QuestT1Prob"/>
+	
+	<item name="ammo9mmBulletHP" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo44MagnumBulletBall" count="30" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo44MagnumBulletHP" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammoShotgunSlug" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo762mmBulletHP" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammoArrowFlaming" count="20" loot_prob_template="QuestT2Prob"/>
+	<item name="ammoCrossbowBoltFlaming" count="20" loot_prob_template="QuestT2Prob"/>
+	<item name="thrownDynamite" count="10" loot_prob_template="QuestT2Prob"/>
+	<item name="thrownGrenade" count="15"  loot_prob_template="QuestT2Prob"/>
+	
+	<item name="ammoArrowExploding" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammoCrossbowBoltExploding" count="15" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo9mmBulletAP" count="10" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo44MagnumBulletAP" count="10" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo762mmBulletAP" count="10" loot_prob_template="QuestT2Prob"/>
+	
+	<item name="ammoArrowExploding" count="20" loot_prob_template="QuestT3Prob"/>
+	<item name="ammoCrossbowBoltExploding" count="20" loot_prob_template="QuestT3Prob"/>
+	<item name="ammo9mmBulletAP" count="20" loot_prob_template="QuestT3Prob"/>
+	<item name="ammo44MagnumBulletAP" count="20" loot_prob_template="QuestT3Prob"/>
+	<item name="ammo762mmBulletAP" count="20" loot_prob_template="QuestT3Prob"/>
+	<item name="ammoRocketFrag" count="10" loot_prob_template="QuestT3Prob"/>
+	<item name="thrownGrenadeContact" count="15" loot_prob_template="QuestT3Prob"/>
+	<item name="thrownTimedCharge" count="10" loot_prob_template="QuestT3Prob"/>
+	
+	<item name="ammo308mmBulletBall" count="5" loot_prob_template="QuestT0Prob"/>
+	<item name="ammo308mmBulletBall" count="10" loot_prob_template="QuestT1Prob"/>
+	<item name="ammo308mmBulletHP" count="10" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo308mmBulletAP" count="10" loot_prob_template="QuestT2Prob"/>
+	<item name="ammo308mmBulletAP" count="15" loot_prob_template="QuestT3Prob"/>
+	</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceWood']/@count">1000</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceCobblestones']/@count">500</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceCoal']/@count">400</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceGunPowder']/@count">200</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceGlue']/@count">10</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT0']/item[@name='resourceLockPick']/@count">5</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceCement']/@count">1000</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceConcreteMix']/@count">1000</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceGunPowder']/@count">400</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceGlue']/@count">20</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceDuctTape']/@count">10</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceMechanicalParts']/@count">20</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceRepairKit']/@count">3</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestResourcesT1']/item[@name='resourceLockPick']/@count">10</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestGas']/item[@name='ammoGasCan']/@count">2500</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestFood']">
+	<item name="foodBlueberryPie" count="1" loot_prob_template="QuestT0Prob"/>
+	<item name="foodVegetableStew" count="1" loot_prob_template="QuestT0Prob"/>
+	<item name="foodMeatStew" count="1" loot_prob_template="QuestT1Prob"/>
+	<item name="foodHoboStew" count="1" loot_prob_template="QuestT1Prob"/>
+	<item name="foodShamChowder" count="1" loot_prob_template="QuestT1Prob"/>
+	<item name="foodChiliDog" count="2" loot_prob_template="QuestT2Prob"/>
+	<item name="foodFishTacos" count="2" loot_prob_template="QuestT2Prob"/>
+	<item name="foodShepardsPie" count="2" loot_prob_template="QuestT3Prob"/>
+	</set>
+	<!--  -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedWeaponChest01']/item[@group='groupWeaponModsScaled']/@prob">0.05</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedWeaponChest02']/item[@group='groupArmorModsScaled']/@prob">0.05</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@count">1,6</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/@count">1,2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@loot_prob_template">med</set>
+	
+	<!-- Remove Powerful Ammo Looting -->
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletHP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletAP']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunSlug']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunSlug']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunSlug']"/>
+
+	<!-- Loot Ammo OR AmmoParts Chance -->
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']/@count">1,4</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']/@count">2,6</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']/@count">3,8</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']/@count">1,3</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']/@count">2,5</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']/@count">3,7</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']/@count">2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']/@count">3</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']/@count">2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']/@count">3</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmSmall']/item[@name='ammo9mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmMedium']/item[@name='ammo9mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group9mmLarge']/item[@name='ammo9mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmSmall']/item[@name='ammo762mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmMedium']/item[@name='ammo762mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group762mmLarge']/item[@name='ammo762mmBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumSmall']/item[@name='ammo44MagnumBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumMedium']/item[@name='ammo44MagnumBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='group44MagnumLarge']/item[@name='ammo44MagnumBulletBall']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellSmall']/item[@name='ammoShotgunShell']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellMedium']/item[@name='ammoShotgunShell']/@loot_prob_template">ProbT0Cap</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunShellLarge']/item[@name='ammoShotgunShell']/@loot_prob_template">ProbT0Cap</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupArrowSmall']/item[@name='ammoArrowStone']/@name">ammoArrowIron</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArrowMedium']/item[@name='ammoArrowStone']/@name">ammoArrowIron</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArrowLarge']/item[@name='ammoArrowStone']/@name">ammoArrowIron</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrossbowBoltSmall']/item[@name='ammoCrossbowBoltStone']/@name">ammoCrossbowBoltIron</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrossbowBoltMedium']/item[@name='ammoCrossbowBoltStone']/@name">ammoCrossbowBoltIron</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrossbowBoltLarge']/item[@name='ammoCrossbowBoltStone']/@name">ammoCrossbowBoltIron</set>
+	<!--  -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsLowHighMed']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsLowHighMed']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsLowMedHigh']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsLowMedHigh']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedMedLow']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedMedLow']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedMedMed']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedLow']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedLow']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsMedMedHigh']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsHighMedLow']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsHighMedLow']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">veryLow</set>
+	
+	
+	<!-- Ammo_Sized_Groups308 -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmall']">
+	<item group="group308mmSmall"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoMedium']">
+	<item group="group308mmMedium"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoSmallNoArrow']">
+	<item group="group308mmSmall"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoMediumNoArrow']">
+	<item group="group308mmMedium"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupAmmoLarge']">
+	<item group="group308mmLarge"/>
+	</append>
+	
+	<!-- CoffeeMaker Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCoffeeMaker01']/item[@name='drinkJarRiverWater']/@loot_prob_template">veryLow</set>
+	
+	<!-- Tier 1&2 Buried Chests Food Drinks Chance -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_01']/item[@group='groupFoodRare']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_02']/item[@group='groupDrinksUncommon']/@loot_prob_template">med</set>
+	
+	<!-- WeaponBag Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallWeaponBag']/item[@group='groupWeaponsHighMedLow']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallWeaponBag']/item[@group='groupSmallAmmoMedMed']/@loot_prob_template">high</set>
+	
+	<!-- WeaponBag Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupLargeWeaponBag']/item[@group='groupWeaponsMedMedHigh']/@count">2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLargeWeaponBag']/item[@group='groupWeaponsMedMedMed']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLargeWeaponBag']/item[@group='groupSmallAmmoMedMed']/@loot_prob_template">high</set>
+	
+	<!-- GunSafe Looting Better -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']"><item group="group_Parts" loot_prob_template="medHigh" force_prob="true"/></append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']/item[@group='groupWeaponsMedMedHigh']/@count">3</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']/item[@group='groupWeaponsMedMedMed']/@loot_prob_template">high</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
+	<item name="resourceLegendaryParts" loot_prob_template="exVeryLow" force_prob="true"/>
+	<item group="groupAmmoSmall" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupAmmoMedium" loot_prob_template="high" force_prob="true"/>
+	<item group="groupAmmoLarge" loot_prob_template="med" force_prob="true"/>
+	</append>
+	
+	<!-- Liquor Cardbord Box Looting Better -->
+	
+	
+	
+	<!-- Footlocker Looting Better -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupFootlocker02']"><item group="group_Parts" loot_prob_template="veryLow"/></append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupFootlocker02']/item[@group='groupModAllScaled']/@loot_prob_template">exVeryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupFootlocker']/item[@group='groupFootlocker02']/@loot_prob_template">high</set>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker01']"><item group="group_Parts" loot_prob_template="low"/></append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupFootlockerWeapons01']/item[@name='meleeWpnBladeT0BoneKnife']/@name">meleeWpnBladeT1HuntingKnife</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupFootlockerWeapons01']/item[@name='meleeWpnKnucklesT0LeatherKnuckles']/@name">meleeWpnKnucklesT1IronKnuckles</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupFootlockerWeapons01']/item[@name='gunHandgunT0PipePistol']/@name">gunHandgunT1Pistol</set>
+	
+	<!-- Cars Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCars02']/item[@group='groupToolsT0']/@group">groupToolsT1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCars02']/item[@group='groupWeaponsT0_Melee']/@group">groupWeaponsT1_Melee</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupCars03']/item[@group='groupWeaponsT0_Ranged']/@group">groupWeaponsT1_Ranged</set>
+	
+	<!-- Purse  Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPurse']/item[@group='groupPurse03']/@loot_prob_template">low</set>
+	
+	<!-- RollingToolBox RepairKit Looting -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']"><item group="group_Parts" loot_prob_template="veryLow"/></append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']/item[@name='resourceRepairKit']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupRollingToolbox02']/item[@name='resourceRepairKit']/@loot_prob_template">veryLow</set>
+	
+	<!-- FireTruck Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupFireTruck']/item[@group='groupFireTruck03']/@loot_prob_template">low</set>
+	
+	<!-- ArmyTruck  Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck03']/item[@group='groupWeaponModsScaled']/@group">group_Parts</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck03']/item[@group='weaponParts']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck']/item[@group='groupArmyTruck02']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck']/item[@group='groupArmyTruck03']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck']/item[@group='groupArmyTruck04']/@loot_prob_template">med</set>
+	
+	<!-- PoliceCar Only Lockpicking Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCar03']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCar03']/item[@group='weaponParts']/@loot_prob_template">high</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCar04']/item[@group='groupArmorModsScaled']/@loot_prob_template">veryLow</set>
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus04']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus04']"><item group="group_Parts" loot_prob_template="med"/></append>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus']/item[@group='groupPoliceCarBonus03']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus']/item[@group='groupPoliceCarBonus04']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus']/item[@group='groupPoliceCar04']/@loot_prob_template">med</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus']"><item name="resourceLegendaryParts" loot_prob_template="exVeryLow" force_prob="true"/></append>
+	
+	<!-- Backpacks  Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBackpacks02']/item[@group='groupWeaponsT0_All']/@group">groupWeaponsT1_Ranged</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBackpacks02']/item[@group='groupWeaponModsScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBackpacks02']/item[@name='resourceRepairKit']/@loot_prob_template">veryLow</set>
+	
+	<!-- PassNGas Box Repairkit Looting -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPassNGas01']/item[@name='resourceRepairKit']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupPassNGas01']/item[@name='resourceRepairKit']/@loot_prob_template">veryLow</set>
+	
+	<!-- INTRO_BURIED_SUPPLIES -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']/item[@name='foodShamSandwich']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']/item[@name='drinkJarEmpty']/@count">1</set>
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']/item[@name='foodShamSandwich']/@name">foodCanCatfood</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']/item[@name='drinkJarEmpty']/@name">drinkJarPureMineralWater</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupIntroBuriedSupplies']/item[@name='foodRottingFlesh']/@name">medicalFirstAidBandage</set>
+	
+	
+	
+	<!-- groupBuriedSuppliesT1 -->
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_01']">
+	<lootgroup name="groupFoodBuried">
+	<item name="foodCanChicken" count="1"/>
+	<item name="foodCanMiso" count="1"/>
+	<item name="foodCanSoup" count="1"/>
+	<item name="foodCanPears" count="1"/>
+	<item name="foodCanCatfood" count="1"/>
+	<item name="foodCanBeef" count="1"/>
+	<item name="foodCanChili" count="1"/>
+	<item name="foodCanDogfood" count="1"/>
+	<item name="foodCanSham" count="1"/>
+	<item name="foodCanLamb" count="1"/>
+	<item name="foodCanPasta" count="1"/>
+	<item name="foodCanPeas" count="1"/>
+	<item name="foodCanSalmon" count="1"/>
+	<item name="foodCanStock" count="1"/>
+	<item name="foodCanTuna" count="1"/>
+	</lootgroup>
+	
+	<lootgroup name="groupDrinksBuried">
+	<item name="drinkJarEmpty" count="1" loot_prob_template="high"/>
+	<item name="drinkJarBoiledWater" count="1" loot_prob_template="med"/>
+	<item name="drinkJarYuccaJuice" count="1" loot_prob_template="medLow"/>
+	<item name="drinkJarGoldenRodTea" count="1" loot_prob_template="medLow"/>
+	<item name="drinkJarRedTea" count="1" loot_prob_template="medLow"/>
+	<item name="drinkJarCoffee" count="1" loot_prob_template="medLow"/>
+	<item name="drinkYuccaJuiceSmoothie" count="1" loot_prob_template="low"/>
+	<item name="drinkJarBlackStrapCoffee" count="1" loot_prob_template="low"/>
+	<item name="drinkJarPureMineralWater" count="1" loot_prob_template="low"/>
+	<item name="drinkCanMegaCrush" count="1" loot_prob_template="low"/>
+	</lootgroup>
+	</insertBefore>
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1']/item[@group='groupBuriedSuppliesT1_01']/@group">groupFoodBuried</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1']/item[@group='groupBuriedSuppliesT1_02']/@group">groupDrinksBuried</set>
+
+	
+	
+	<!-- Treasure Box Looting Better -->
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']"><item group="group_Parts" loot_prob_template="veryLow"/></append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']"><item name="resourceLegendaryParts" loot_prob_template="veryLow"/></append>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='oldCash']/@count">1000,3000</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceSilverNugget']/@count">6,20</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceGoldNugget']/@count">3,10</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceRawDiamond']/@count">2,4</set>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='casinoCoin']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='oldCash']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceSilverNugget']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceGoldNugget']/@loot_prob_template">high</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']/item[@name='resourceRawDiamond']/@loot_prob_template">high</set>
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']/item[@group='groupValuablesExtraLarge']/@count">3</set>
+	
+	<!-- SafeLockBox Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']/item[@group='groupWeaponsAllScaledNoStone']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']/item[@group='groupModAllScaled']/@group">groupToolsTieredBonus</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot01']/item[@group='groupSchematicsAll']/@loot_prob_template">high</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']/item[@group='groupSmallSafeLoot02']" name="count">2</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']/item[@group='groupSmallSafeLoot03']" name="count">2</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']/item[@group='groupSmallSafeLoot01']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']/item[@group='groupSmallSafeLoot02']/@loot_prob_template">veryHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']/item[@group='groupSmallSafeLoot03']/@loot_prob_template">high</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupSmallSafeLoot']">
+	<item name="resourceLegendaryParts" loot_prob_template="legendHigh" force_prob="true"/>
+	<item group="groupAmmoSmall" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupAmmoMedium" loot_prob_template="high" force_prob="true"/>
+	</append>
+	
+	<!-- ShotgunMessiah Box Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunMessiahCrate']/item[@group='groupShotgunMessiahCrate01']/@count">3</set>
+	
+	<!-- ReinforcedChest MODitems Convert Tools -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_05']/item[@group='groupModAllScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2_06']/item[@group='groupModAllScaled']/@group">groupToolsTiered</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_04']/item[@group='groupModAllScaled']/@group">groupToolsTiered</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_06']/item[@group='groupModAllScaled']/@group">groupToolsTiered</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_04']/item[@group='groupModAllScaled']/@group">groupToolsTiered</set>
+	
+	<!-- Nightstand Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupNightstand']/item[@group='groupNightstand02']/@loot_prob_template">low</set>
+	
+	<!-- Locker Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupLocker02']/item[@group='groupWeaponModsScaled']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLocker02']/item[@group='groupWeaponModsScaled']/@group">group_Parts</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLocker']/item[@group='groupLocker02']/@loot_prob_template">low</set>
+	
+	<!-- ConstructionCrate CraftResource Looting Better -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupConstructionCrate']/item[@group='groupConstructionCrate01']/@count">2,3</set>
+	
+	<!-- Airdrop Looting Better -->
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@group='cannedfood']" name="count">2</setattribute>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@name='foodGrilledMeat']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@name='foodCornOnTheCob']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@name='foodBakedPotato']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropfood']/item[@name='foodCornBread']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropdrink']/item[@name='drinkJarBoiledWater']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='airdropMedicine']/item[@name='resourceSewingKit']"/>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDrop02']" name="count">all</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT1Bundles']/item[@group='groupQuestT1MeleeMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT1Bundles']/item[@group='groupQuestT1RangedMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT2Bundles']/item[@group='groupQuestT2MeleeMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT2Bundles']/item[@group='groupQuestT2RangedMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT3Bundles']/item[@group='groupQuestT3MeleeMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT3Bundles']/item[@group='groupQuestT3RangedMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT4Bundles']/item[@group='groupQuestT3MeleeMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT4Bundles']/item[@group='groupQuestT3RangedMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT5Bundles']/item[@group='groupQuestT3MeleeMods']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupAirDropT5Bundles']/item[@group='groupQuestT3RangedMods']" name="loot_prob_template">veryLow</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupAirDrop']/item[@group='groupAirDrop01']/@count">2</set>
+	<!--  -->
+	
+	<!-- Books -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='perkBooks']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='schematicsModsAndGeneralCommon']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='schematicsVehiclesCommon']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksAllScaled']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@group='schematicsModsAndGeneralRare']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@group='schematicsVehiclesRare']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@name='plantedGraceCorn1Schematic']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']/item[@group='schematicsModsAndGeneralCommon']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']/item[@group='schematicsVehiclesCommon']/@loot_prob_template">exVeryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs03']/item[@group='groupWorkingStiffsBooks']/@loot_prob_template">veryLow</set>
+	<append xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs03']">
+	<item name="harvestingToolsSkillMagazine" loot_prob_template="med"/>
+	<item name="repairToolsSkillMagazine" loot_prob_template="med"/>
+	<item name="salvageToolsSkillMagazine" loot_prob_template="med"/>
+	<item name="workstationSkillMagazine" loot_prob_template="med"/>
+	</append>
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMoPowerShelvesBooks']/item[@group='groupBotSchematics']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMoPower03']/item[@group='groupTechJunkieBooks']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupFireTruck']/item[@group='groupFireTruck02']/@loot_prob_template">low</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupArmyTruck03']/item[@group='groupMilitaryBooks']/@loot_prob_template">exVeryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase01']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase02']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMailbox01']/item[@group='perkBooks']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMailbox02']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookPile01']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSingleBooks01']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrackabookShelves01']/item[@group='booksAllScaled']/@loot_prob_template">exVeryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate01']/item[@group='booksAllScaled']/@group">skillMagazines</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate02']/item[@group='booksAllScaled']/@group">skillMagazines</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBackpacksBooks']/item[@group='perkBooks']/@loot_prob_template">veryLow</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBackpacks02']/item[@group='perkBooks']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCampingTents02']/item[@group='perkBooks']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSavageCountryCrate02']/item[@group='groupSavageCountryBooks']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupShotgunMessiahCrate02']/item[@group='groupShotgunMessiahCrateBooks']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate02']/item[@group='groupPopNPillsBooks']/@loot_prob_template">veryLow</set>
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT1_05']/item[@group='perkBooks']/@group">skillMagazines</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT2_07']/item[@group='perkBooks']/@group">skillMagazines</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_05']/item[@group='booksAllScaled']/@group">skillMagazines</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupDesks01']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupLuggage02']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupLocker02']/item[@group='booksAllScaled']/@loot_prob_template">veryLow</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunk03']/item[@group='booksAllScaled']"/>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupJunkNoBMats03']/item[@group='booksAllScaled']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker01Books']/item[@group='groupMilitaryBooks']/@group">skillMagazines</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker01']/item[@group='groupMilitaryBooks']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPOIStorageBox02']/item[@group='booksAllScaled']/@group">skillMagazines</set>
+	
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='survivalMedical']/item[@name='medicalSkillMagazine']/@loot_prob_template">veryLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupSmallWeaponBag']/item[@group='weaponSkillMagazinesOnly']/@loot_prob_template">med</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupLargeWeaponBag']/item[@group='weaponSkillMagazinesOnly']/@loot_prob_template">med</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupFoodPileMed']/item[@name='foodSkillMagazine']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupFoodPileLarge']/item[@name='foodSkillMagazine']/@loot_prob_template">medLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalPileSmall']/item[@name='medicalSkillMagazine']/@loot_prob_template">low</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupMedicalPileMed']/item[@name='medicalSkillMagazine']/@loot_prob_template">low</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMilitaryFootlocker01Books']/item[@group='weaponSkillMagazinesOnly']/@loot_prob_template">medLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupCars03']/item[@group='skillMagazines']/@loot_prob_template">medLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupFileCabinet01']/item[@group='skillMagazines']/@loot_prob_template">medHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupPOIStorageBox02']/item[@group='skillMagazines']/@loot_prob_template">medLow</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase01']/item[@group='skillMagazines']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase01']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase02']/item[@group='skillMagazines']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookcase02']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupMailbox02']/item[@group='skillMagazines']/@loot_prob_template">veryHigh</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupBookPile01']/item[@group='skillMagazines']/@count">1</set>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Zpack -->
+	
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupZpackReg01']">
+<lootgroup name="groupZpackScrap">
+	<item name="oldCash" count="1,20" loot_prob_template="veryHigh"/>
+	<item name="resourceScrapLead" count="10,40" loot_prob_template="high"/>
+	<item name="resourceScrapIron" count="10,40" loot_prob_template="high"/>
+	<item name="resourceScrapBrass" count="5,25" loot_prob_template="high"/>
+	<item name="resourceCloth" count="1,20" loot_prob_template="veryHigh"/>
+	<item name="resourceMetalPipe" count="3,10" loot_prob_template="high"/>
+	<item name="resourceGlue" count="1,4" loot_prob_template="high"/>
+	<item name="resourceScrapPolymers" count="2,15" loot_prob_template="high"/>
+	<item name="resourceNail" count="5,25" loot_prob_template="high"/>
+	<item name="resourceSewingKit" count="1,3" loot_prob_template="medHigh"/>
+	<item name="resourceGunPowder" count="10,30" loot_prob_template="medHigh"/>
+	<item name="resourceDuctTape" count="1,2" loot_prob_template="med"/>
+	<item name="resourceOil" count="1,2" loot_prob_template="medLow"/>
+	<item name="resourceSpring" count="1,2" loot_prob_template="medHigh"/>
+	<item name="resourceHeadlight" count="1" loot_prob_template="veryLow"/>
+	<item name="resourceElectricParts" count="1,3" loot_prob_template="low"/>
+	<item name="resourceMechanicalParts" count="1,3" loot_prob_template="low"/>
+	<item name="resourceAcid" count="1" loot_prob_template="veryLow"/>
+	<item name="resourceForgedIron" count="5,20" loot_prob_template="low"/>
+	<item name="resourceForgedSteel" count="1,10" loot_prob_template="veryLow"/>
+	<item name="resourceClayLump" count="10,40" loot_prob_template="high"/>
+	<item name="resourceWood" count="10,40" loot_prob_template="high"/>
+	<item name="resourceCobblestones" count="10,40" loot_prob_template="med"/>
+</lootgroup>
+<lootgroup name="groupZpackFood">
+	<item name="oldCash" count="1,20" loot_prob_template="veryHigh"/>
+	<item name="foodRottingFlesh" count="3,8" loot_prob_template="veryHigh"/>
+	<item name="resourceBone" count="3,8" loot_prob_template="veryHigh"/>
+	<item name="foodShamSandwich" loot_prob_template="med"/>
+	<item name="drinkJarRiverWater" count="1" loot_prob_template="low"/>
+	<item name="drinkJarBoiledWater" count="1" loot_prob_template="veryLow"/>
+	<item group="cannedfood" count="1" loot_prob_template="veryLow"/>
+	<item group="groupDrinksUncommon" count="1" loot_prob_template="veryLow"/>
+	<item group="groupDrinksRare" count="1" loot_prob_template="exVeryLow"/>
+</lootgroup>
+<lootgroup name="groupZpackMedical">
+	<item name="oldCash" count="1,20" loot_prob_template="veryHigh"/>
+	<item name="resourceCloth" count="1,15" loot_prob_template="veryHigh"/>
+	<item name="medicalBloodBag" loot_prob_template="exVeryLow"/>
+	<item name="resourceSewingKit" count="1,2" loot_prob_template="low"/>
+	<item name="medicalAloeCream" count="1" loot_prob_template="veryLow"/>
+	<item name="medicalBandage" count="1" loot_prob_template="veryLow"/>
+	<item name="medicalFirstAidBandage" loot_prob_template="exVeryLow"/>
+	<item name="foodHoney" loot_prob_template="exVeryLow"/>
+	<item name="medicalSplint" count="1" loot_prob_template="exVeryLow"/>
+</lootgroup>
+<lootgroup name="groupZpackMedicalDoc">
+	<item name="oldCash" count="1,20" loot_prob_template="veryHigh"/>
+	<item name="resourceCloth" count="1,15" loot_prob_template="veryHigh"/>
+	<item name="medicalBandage" count="1" loot_prob_template="low"/>
+	<item name="medicalBloodBag" loot_prob_template="veryLow"/>
+	<item name="medicalAloeCream" count="1" loot_prob_template="veryLow"/>
+	<item name="resourceSewingKit" count="1" loot_prob_template="veryLow"/>
+	<item name="medicalFirstAidBandage" loot_prob_template="low"/>
+	<item name="medicalSplint" count="1" loot_prob_template="veryLow"/>
+	<item name="medicalPlasterCast" loot_prob_template="veryLow"/>
+	<item name="foodHoney" loot_prob_template="exVeryLow"/>
+	<item name="drugPainkillers" loot_prob_template="veryLow"/>
+	<item name="drugVitamins" loot_prob_template="veryLow"/>
+	<item name="drugSteroids" loot_prob_template="veryLow"/>
+	<item name="drugHerbalAntibiotics" loot_prob_template="veryLow"/>
+</lootgroup>
+
+
+<lootgroup name="groupZpackNormal">
+	<item group="groupAmmoSmall" loot_prob_template="low"/>
+	<item group="groupAmmoMedium" loot_prob_template="veryLow"/>
+	<item group="groupZpackScrap" loot_prob_template="med"/>
+	<item name="oldCash" count="20,60" loot_prob_template="veryHigh"/>
+	<item name="resourceCloth" count="3,15" loot_prob_template="high"/>
+	<item group="groupAmmoLarge" loot_prob_template="veryLow"/>
+	<item group="groupArmorScaled" loot_prob_template="veryLow"/>
+	<item name="meleeWpnBladeT1HuntingKnife" loot_prob_template="exVeryLow"/>
+	<item name="gunHandgunT1Pistol" loot_prob_template="legendMed"/>
+	<item group="groupZpackMedicalDoc" loot_prob_template="legendLow"/>
+	<item group="groupToolsTiered" loot_prob_template="legendLow"/>
+	<item group="groupRareToolsTiered" loot_prob_template="legendLow"/>
+	<item group="groupWeaponsAllScaled" loot_prob_template="legendLow"/>
+	<item group="groupTreasureMaps" loot_prob_template="legendLow"/>
+</lootgroup>
+
+<lootgroup name="groupZpackWeapons">
+
+	<item group="groupAmmoSmallNoArrow" loot_prob_template="med"/>
+	<item group="groupAmmoMediumNoArrow" loot_prob_template="low"/>
+	<item name="oldCash" count="25,100" loot_prob_template="veryHigh"/>
+	<item name="resourceCloth" count="3,15" loot_prob_template="med"/>
+	<item group="groupAmmoLarge" loot_prob_template="veryLow"/>
+	<item name="thrownGrenade" count="1,2" loot_prob_template="med"/>
+	<item group="groupArmorScaled" loot_prob_template="low"/>
+	<item name="meleeWpnBladeT1HuntingKnife" loot_prob_template="veryLow"/>
+	<item name="gunHandgunT1Pistol" loot_prob_template="exVeryLow"/>
+	<item group="groupZpackMedicalDoc" loot_prob_template="legendMed"/>
+	<item group="groupToolsTiered" loot_prob_template="legendLow"/>
+	<item group="groupWeaponsAllScaled" loot_prob_template="veryLow"/>
+	<item group="groupTreasureMaps" loot_prob_template="legendLow"/>
+</lootgroup>
+
+	</insertBefore>
+	
+	
+	<!-- groupZpackReg -->
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupAmmoLarge']" name="loot_prob_template">veryLow</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupAmmoLarge']" name="force_prob">true</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupAmmoLarge']/@group">groupZpackWeapons</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg01']/@count">1,2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg01']/@group">groupZpackScrap</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg02']/@group">groupZpackFood</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg03']/@loot_prob_template">veryHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg03']/@group">groupZpackMedical</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg04']/@loot_prob_template">veryHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='groupZpackReg04']/@group">groupZpackNormal</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='booksAllScaled']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackReg']/item[@group='booksAllScaled']"/>
+	
+	
+	<!-- groupZpackNurse -->
+	
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']/item[@group='groupZpackNurse01']/@count">1,2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']/item[@group='groupZpackNurse01']/@group">groupZpackScrap</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']/item[@group='groupZpackNurse02']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']/item[@group='groupZpackNurse02'][@buffs='buffPerkBookwormSuccess']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']/item[@group='groupZpackNurse02']/@group">groupZpackFood</set>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackNurse']">
+	<item group="groupZpackMedicalDoc" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupZpackNormal" loot_prob_template="veryHigh" force_prob="true"/>
+	</append>
+	
+	
+	<!-- groupZpackLab -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackLab']/item[@group='groupZpackLab01']/@count">1,2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackLab']/item[@group='groupZpackLab01']/@group">groupZpackScrap</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackLab']/item[@group='groupZpackLab02']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackLab']/item[@group='groupZpackLab02'][@buffs='buffPerkBookwormSuccess']"/>
+	
+		<set xpath="/lootcontainers/lootgroup[@name='groupZpackLab']/item[@group='groupZpackLab02']/@group">groupZpackFood</set>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackLab']">
+	<item group="groupZpackMedicalDoc" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupZpackNormal" loot_prob_template="veryHigh" force_prob="true"/>
+	</append>
+	
+	
+	<!-- groupZpackUtility -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']/item[@group='groupZpackUtility01']/@count">3,4</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']/item[@group='groupZpackUtility01']/@group">groupZpackScrap</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']/item[@group='groupZpackUtility02']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']/item[@group='groupZpackUtility02'][@buffs='buffPerkBookwormSuccess']"/>
+		
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']/item[@group='groupZpackUtility02']/@group">groupZpackFood</set>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackUtility']">
+	<item group="groupToolsTiered" loot_prob_template="veryLow" force_prob="true"/>
+	<item group="groupZpackNormal" loot_prob_template="veryHigh" force_prob="true"/>
+	</append>
+	
+	
+	<!-- groupZpackSoldier -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']/item[@group='groupZpackSoldier01']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']/item[@group='groupZpackSoldier01']/@group">groupAmmoSmall</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']/item[@group='groupZpackSoldier02']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']/item[@group='groupZpackSoldier02'][@buffs='buffPerkBookwormSuccess']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']/item[@group='groupZpackSoldier02']/@group">groupZpackFood</set>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackSoldier']">
+	<item group="groupZpackMedicalDoc" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupZpackWeapons" loot_prob_template="guaranteed" force_prob="true"/>
+	</append>
+	
+	
+	<!-- groupZpackThug -->
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug']/item[@group='groupZpackThug01']/@count">1</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug']/item[@group='groupZpackThug01']/@group">groupAmmoSmall</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackThug']/item[@group='groupZpackThug02']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackThug']/item[@group='groupZpackThug02'][@buffs='buffPerkBookwormSuccess']"/>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackThug']/item[@group='groupZpackThug02']/@group">groupZpackFood</set>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackThug']">
+	<item group="groupZpackMedicalDoc" loot_prob_template="veryHigh" force_prob="true"/>
+	<item group="groupZpackWeapons" loot_prob_template="guaranteed" force_prob="true"/>
+	</append>
+	
+	<!-- groupZpackStrong -->
+
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupAmmoLarge']" name="loot_prob_template">low</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupAmmoLarge']" name="force_prob">true</setattribute>
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong01']/@count">2,4</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong01']/@group">groupZpackScrap</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong02']/@count">1,2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong02']/@group">groupZpackFood</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong03']/@group">groupZpackMedicalDoc</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong04']/@loot_prob_template">veryHigh</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='groupZpackStrong04']/@group">groupZpackNormal</set>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='booksAllScaled']/requirement"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']/item[@group='booksAllScaled']"/>
+	
+	
+	
+	<!-- groupZpackBoss -->
+	
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupAmmoLarge']" name="loot_prob_template">veryHigh</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupAmmoLarge']" name="force_prob">true</setattribute>
+
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss01']/@count">5</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss01']/@group">groupZpackScrap</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss02']/@count">2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss02']/@group">groupZpackFood</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss03']/@count">2</set>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss03']/@group">groupZpackMedicalDoc</set>
+	
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss04']/@loot_prob_template">veryHigh</set>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss04']" name="count">2</setattribute>
+	<set xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']/item[@group='groupZpackBoss04']/@group">groupZpackWeapons</set>
+
+	
+	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">
+	
+	<lootgroup name="groupZpackMutant1" count="all">
+	<item group="groupAmmoLarge" count="3"/>
+	<item group="groupZpackScrap" count="5"/>
+	<item group="groupZpackFood" count="2"/>
+	<item group="groupZpackMedicalDoc" count="3"/>
+	<item group="groupZpackWeapons" count="2"/>
+	<item name="resourceLegendaryParts" loot_prob_template="legendHigh" force_prob="true"/>
+	<item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
+		<requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance"/>
+	</item>
+	</lootgroup>
+	
+	<lootgroup name="groupZpackMutant2" count="all">
+	<item group="groupAmmoLarge" count="10"/>
+	<item group="groupZpackScrap" count="10"/>
+	<item group="groupZpackFood" count="4"/>
+	<item group="groupZpackMedicalDoc" count="3"/>
+	<item group="groupZpackWeapons" count="3"/>
+	<item name="resourceLegendaryParts" loot_prob_template="low" force_prob="true"/>
+	<item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
+		<requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance"/>
+	</item>
+	</lootgroup>
+	
+	<lootgroup name="groupZpackMutant3" count="all">
+	<item group="groupAmmoLarge" count="10"/>
+	<item group="groupZpackScrap" count="10"/>
+	<item group="groupZpackFood" count="4"/>
+	<item group="groupZpackMedicalDoc" count="3"/>
+	<item group="groupZpackWeapons" count="3"/>
+	<item name="resourceLegendaryParts" loot_prob_template="low" force_prob="true"/>
+	<item group="booksAllScaled" count="1" buffs="buffPerkBookwormSuccess">
+		<requirement class="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="@$perkBookwormChance"/>
+	</item>
+	</lootgroup>
+	
+	</insertAfter>
+	
+	
+	
+	
+	<!-- *** Container *** -->
+	
+	
+	<!-- Big Backpack Player Death Drops -->
+	<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">11,11</set>
+	
+	<!-- Mutant Boss zPacks -->
+	<insertAfter xpath="/lootcontainers/lootcontainer[@name='zPackBoss']">
+	
+	<lootcontainer name="zPackMutant1" count="1" size="10,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true">
+	<item group="groupZpackMutant1"/>
+	</lootcontainer>
+	
+	<lootcontainer name="zPackMutant2" count="1" size="10,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true">
+	<item group="groupZpackMutant2"/>
+	</lootcontainer>
+	
+	<lootcontainer name="zPackMutant3" count="1" size="10,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualPlus1Template" ignore_loot_abundance="true">
+	<item group="groupZpackMutant3"/>
+	</lootcontainer>
+	
+	</insertAfter>
+</configs>

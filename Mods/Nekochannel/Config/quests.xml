@@ -1,0 +1,133 @@
+<configs>
+	<!-- -->
+	<set xpath="/quests/@quests_per_tier">8</set>
+	
+	<set xpath="/quests/quest[@id='challengegroup_reward_homesteading']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_advanced_survival']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_crafting']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_trader_quests']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_harvesting']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_gatherer']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_farmer']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_healer']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='challengegroup_reward_survivor']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_rabbit_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_chicken_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_coyote_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_deer_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_snake_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_boar_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_wolf_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_lion_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_bear_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_animal_hunter']/reward[@id='groupChallengeRewardSkillMagazinesAll']/@value">5</set>
+	
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoArrowIron']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo9mmBulletBall']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoShotgunShell']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo762mmBulletBall']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoJunkTurretRegular']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoArrowIron']/@id">QammoBundleArrowSteelAP</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo9mmBulletBall']/@id">QammoBundle9mmBulletBall</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoShotgunShell']/@id">QammoBundleShotgunShell</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo762mmBulletBall']/@id">QammoBundle762mmBulletBall</set>
+	<set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoJunkTurretRegular']/@id">QammoBundleJunkTurretRegular</set>
+	
+	<!-- <set xpath="/quests/quest[@id='quest_reward_cop_zombie_slayer']/reward[@id='resourceLegendaryParts']/@type">LootItem</set> -->
+	<set xpath="/quests/quest[@id='quest_reward_cop_zombie_slayer']/reward[@id='resourceLegendaryParts']/@value">1</set>
+	<set xpath="/quests/quest[@id='quest_reward_cop_zombie_slayer']/reward[@id='resourceLegendaryParts']/@id">resourceLegendaryParts</set>
+	
+	<set xpath="/quests/quest[@id='quest_reward_cop_zombie_slayer']/reward[@id='solarCell']/@value">6</set>
+	
+	<set xpath="/quests/quest[@id='treasure_taylor']/objective/property[@name='distance']/@value">300-600</set>
+	
+	
+	<set xpath="/quests/quest[@id='tier1_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">100</set>
+	<set xpath="/quests/quest[@id='tier2_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">150</set>
+	<set xpath="/quests/quest[@id='tier3_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">250</set>
+	<set xpath="/quests/quest[@id='tier4_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">500</set>
+	<set xpath="/quests/quest[@id='tier5_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">1000</set>
+	<set xpath="/quests/quest[@id='tier6_fetch']/reward[@type='Item'][@id='casinoCoin']/@value">2000</set>
+	
+	<set xpath="/quests/quest[@id='tier1_clear']/reward[@type='Item'][@id='casinoCoin']/@value">100</set>
+	<set xpath="/quests/quest[@id='tier2_clear']/reward[@type='Item'][@id='casinoCoin']/@value">200</set>
+	<set xpath="/quests/quest[@id='tier3_clear']/reward[@type='Item'][@id='casinoCoin']/@value">300</set>
+	<set xpath="/quests/quest[@id='tier4_clear']/reward[@type='Item'][@id='casinoCoin']/@value">500</set>
+	<set xpath="/quests/quest[@id='tier5_clear']/reward[@type='Item'][@id='casinoCoin']/@value">1000</set>
+	<set xpath="/quests/quest[@id='tier6_clear']/reward[@type='Item'][@id='casinoCoin']/@value">2000</set>
+	
+	<set xpath="/quests/quest[@id='tier2_clear_infested']/reward[@type='Item'][@id='casinoCoin']/@value">200</set>
+	<set xpath="/quests/quest[@id='tier3_clear_infested']/reward[@type='Item'][@id='casinoCoin']/@value">300</set>
+	<set xpath="/quests/quest[@id='tier4_clear_infested']/reward[@type='Item'][@id='casinoCoin']/@value">500</set>
+	<set xpath="/quests/quest[@id='tier5_clear_infested']/reward[@type='Item'][@id='casinoCoin']/@value">1000</set>
+	<set xpath="/quests/quest[@id='tier6_clear_infested']/reward[@type='Item'][@id='casinoCoin']/@value">2000</set>
+	
+	<set xpath="/quests/quest[@id='tier2_restore_power']/reward[@type='Item'][@id='casinoCoin']/@value">1000</set>
+	<set xpath="/quests/quest[@id='tier3_restore_power']/reward[@type='Item'][@id='casinoCoin']/@value">1600</set>
+	<set xpath="/quests/quest[@id='tier4_restore_power']/reward[@type='Item'][@id='casinoCoin']/@value">2200</set>
+	
+	<set xpath="/quests/quest[@id='tier2_fetch_clear']/reward[@type='Item'][@id='casinoCoin']/@value">200</set>
+	<set xpath="/quests/quest[@id='tier3_fetch_clear']/reward[@type='Item'][@id='casinoCoin']/@value">300</set>
+	<set xpath="/quests/quest[@id='tier4_fetch_clear']/reward[@type='Item'][@id='casinoCoin']/@value">500</set>
+	<set xpath="/quests/quest[@id='tier5_fetch_clear']/reward[@type='Item'][@id='casinoCoin']/@value">1000</set>
+	<set xpath="/quests/quest[@id='tier6_fetch_clear']/reward[@type='Item'][@id='casinoCoin']/@value">2000</set>
+	
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/reward[@type='Item'][@id='casinoCoin']/@value">200</set>
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/reward[@type='Item'][@id='casinoCoin']/@value">400</set>
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/reward[@type='Item'][@id='casinoCoin']/@value">600</set>
+	
+	
+	<set xpath="/quests/quest[@id='tier2_restore_power']/objective/property[@name='allowed_start_hour']/@value">20</set>
+	<set xpath="/quests/quest[@id='tier2_restore_power']/objective/property[@name='allowed_end_hour']/@value">2</set>
+	<set xpath="/quests/quest[@id='tier2_restore_power']/reward[@id='groupQuestMedical,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestAmmo,groupQuestToolsT1,groupQuestWeaponsMeleeT1,groupQuestWeaponsRangedT1,groupQuestT1Books</set>
+	<set xpath="/quests/quest[@id='tier3_restore_power']/reward[@id='groupQuestMedical,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestAmmo,groupQuestToolsT2,groupQuestWeaponsMeleeT1,groupQuestWeaponsRangedT2,groupQuestT2Books</set>
+	<set xpath="/quests/quest[@id='tier4_restore_power']/reward[@id='groupQuestMedical,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestAmmo,groupQuestTools,groupQuestWeaponsMelee,groupQuestWeaponsRanged,groupQuestT3Books</set>
+	
+	
+	<set xpath="/quests/quest[@id='tier6_clear']/reward[@id='resourceLegendaryParts']/@type">LootItem</set>
+	<set xpath="/quests/quest[@id='tier6_clear_infested']/reward[@id='resourceLegendaryParts']/@type">LootItem</set>
+	<set xpath="/quests/quest[@id='tier6_fetch_clear']/reward[@id='resourceLegendaryParts']/@type">LootItem</set>
+	
+	<set xpath="/quests/quest[@id='tier6_test_turnin']/reward[@id='resourceLegendaryParts']/@type">LootItem</set>
+	
+	<set xpath="/quests/quest[@id='tier6_clear']/reward[@id='resourceLegendaryParts']/@id">groupTreasureMaps</set>
+	<set xpath="/quests/quest[@id='tier6_clear_infested']/reward[@id='resourceLegendaryParts']/@id">groupTreasureMaps</set>
+	<set xpath="/quests/quest[@id='tier6_fetch_clear']/reward[@id='resourceLegendaryParts']/@id">groupTreasureMaps</set>
+	
+	<set xpath="/quests/quest[@id='tier6_test_turnin']/reward[@id='resourceLegendaryParts']/@id">groupTreasureMaps</set>
+	
+	<set xpath="/quests/quest[@id='intro_buried_supplies']/objective/property[@name='distance']/@value">100-300</set>
+	<set xpath="/quests/quest[@id='intro_buried_supplies']/action[@type='SpawnGSEnemy']/property[@name='count']/@value">1</set>
+	
+	
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/objective/property[@name='distance']/@value">250-550</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/objective[@type='TreasureChest']/property[@name='default_radius']/@value">4</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/objective[@type='TreasureChest']/property[@name='blocks_per_reduction']/@value">15</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/event[@type='TreasureRadiusReduction']/property[@name='chance']/@value">0.1</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/event[@type='TreasureRadiusReduction']/action[@type='SpawnGSEnemy']/property[@name='count']/@value">3</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/action[@type='SpawnGSEnemy']/property[@name='count']/@value">0</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/reward[@id='groupQuestFood,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestMedical,groupQuestAmmo,groupQuestToolsT1,groupQuestWeaponsMeleeT1,groupQuestWeaponsRangedT1,groupQuestT1Books</set>
+	
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/variable[@name='radius']/@value">7</set>
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/variable[@name='spawn_chance']/@value">0.1</set>
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/variable[@name='spawn_count']/@value">4</set>
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/variable[@name='finish_spawn_count']/@value">0</set>
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/reward[@id='groupQuestMedical,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestMedical,groupQuestAmmo,groupQuestTools,groupQuestWeaponsMelee,groupQuestWeaponsRanged,groupQuestT1Books</set>
+	
+	<set xpath="/quests/quest[@id='tier2_buried_supplies']/variable[@name='radius']/@value">10</set>
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/variable[@name='spawn_chance']/@value">0.1</set>
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/variable[@name='spawn_count']/@value">5</set>
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/variable[@name='finish_spawn_count']/@value">0</set>
+	<set xpath="/quests/quest[@id='tier3_buried_supplies']/reward[@id='groupQuestMedical,groupQuestAmmo,groupQuestSchematics']/@id">groupQuestMedical,groupQuestAmmo,groupQuestTools,groupQuestWeaponsMelee,groupQuestWeaponsRanged,groupQuestT2Books</set>
+	
+	<set xpath="/quests/quest[@id='quest_tier1complete']/reward[@id='toolDewGatherer']/@isfixed">false</set>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</configs>

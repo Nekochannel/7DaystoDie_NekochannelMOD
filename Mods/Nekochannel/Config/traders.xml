@@ -1,0 +1,155 @@
+<configs>
+	<!-- -->
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='2']/@min">1</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='2']/@max">2</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='3']/@min">3</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='3']/@max">4</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='4']/@min">5</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='4']/@max">6</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='5']/@min">7</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier0']/entry[@quality='5']/@max">8</set>
+	
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='baseTier1']/entry[@quality='1']/@min">1</set>
+	
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='ammoTier2']/entry[@quality='0']/@min">40</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='ammoTier2']/entry[@quality='0']/@min">60</set>
+	
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier0']/entry[@quality='0']/@max">2</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier1']/entry[@quality='0']/@min">1</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier2']/entry[@quality='0']/@min">30</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier3']/entry[@quality='0']/@min">50</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='arrowsTier4']/entry[@quality='0']/@min">70</set>
+	
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='2']/@min">1</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='2']/@max">2</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='3']/@min">2</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='3']/@max">3</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='4']/@min">3</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='4']/@max">4</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='5']/@min">4</set>
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier0']/entry[@quality='5']/@max">5</set>
+	
+	<set xpath="/traders/traderstage_templates/traderstage_template[@name='bowsTier1']/entry[@quality='1']/@min">1</set>
+	
+	
+	<!--
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group/item/@quality">1,5</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLight']/item/@quality">1,5</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMedium']/item/@quality">1,5</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavy']/item/@quality">1,5</set>
+	
+	 -->
+	<!-- -->
+	
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunParts']">
+		<trader_item_group name="weaponsMeleeParts">
+			<item name="meleeWpnKnucklesT3SteelKnucklesParts" count="1,5"/>
+			<item name="meleeWpnBladeT3MacheteParts" count="1,5"/>
+			<item name="meleeWpnSpearT3SteelSpearParts" count="1,5"/>
+			<item name="meleeWpnClubT3SteelClubParts" count="1,5"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammerParts" count="1,5"/>
+			<item name="meleeToolAllSteelParts" count="1,5"/>
+			<item name="meleeToolAxeT3ChainsawParts" count="1,5"/>
+			<item name="meleeWpnBatonT2StunBatonParts" count="1,5"/>
+	
+		</trader_item_group>
+	</insertAfter>
+	
+	<!-- dyemod-->
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@group='groupDyeMods']/@count">1</set>
+	
+	
+	<!-- 308Ammo -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAll']">
+	<item name="ammo308mmBulletBall" count="20,100"/>
+	<item name="ammo308mmBulletHP" count="20,100"/>
+	<item name="ammo308mmBulletAP" count="20,100"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoBrass']">
+	<item name="ammo308mmBulletBall" count="20,100"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoHP']">
+	<item name="ammo308mmBulletHP" count="20,100"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammoAP']">
+	<item name="ammo308mmBulletAP" count="20,100"/>
+	</append>
+	
+	<!-- groupAllAmmo -->
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupAllAmmo']/item[@group='ammoArrowsBolts']/@count">3,6</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupAllAmmo']/item[@group='ammoBrass']/@count">4,6</set>
+	
+	
+	<!-- food -->
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='preparedFood']/item/@count">5</set>
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupDrinks']/item/@count">5</set>
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='groupFoodAll']/item/@count">2</set>
+	
+	
+	<!-- seeds -->
+	
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@group='seeds']/@count">6,12</set>
+	
+	
+	<!-- drugCaffeines -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='medicine']">
+	<item name="drugCaffeines" count="1,4"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodCandy']">
+	<item name="drugCaffeines" count="1,4"/>
+	</append>
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupDrinksSpecial']">
+	<item name="drugCaffeines" count="1,4"/>
+	</append>
+	
+	
+	<!-- traderAlways -->
+	
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+			<item group="weaponsGunParts" count="5"/>
+			<item group="weaponsMeleeParts" count="7"/>
+			<item group="seeds" count="3"/>
+			<item group="cannedfood" count="1"/>
+			<item group="preparedFood" count="1"/>
+	</append>
+	
+	<!-- trader sells -->
+	
+	<set xpath="/traders/trader_info/trader_items/item[@group='skillMagazines']/@count">12</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='books']/@count">12</set>
+	
+	<set xpath="/traders/trader_info/trader_items/item[@group='commonBooks']/@count">6</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='rareBooks']/@count">3</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='perkBooks']/@count">6</set>
+	
+	<set xpath="/traders/trader_info/trader_items/item[@name='drinkJarEmpty']/@count">20,50</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='generalResources']/@count">10,20</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='constructionSupplies']/@count">10,20</set>
+	<setattribute xpath="/traders/trader_info/trader_items/item[@group='traderAlways']" name="count">6</setattribute>
+	<set xpath="/traders/trader_info/trader_items/item[@group='traderGeneral']/@count">40</set>
+	
+	
+	<!-- vendor sells -->
+	
+	<set xpath="/traders/trader_info/trader_items/item[@group='drinkVending']/@count">7,10</set>
+	<set xpath="/traders/trader_info/trader_items/item[@group='foodVending']/@count">7,10</set>
+	
+	
+	
+	
+	<!-- trader info -->
+	
+	<set xpath="/traders/trader_info/@reset_interval">1</set>
+	<set xpath="/traders/trader_info/@open_time">02:00</set>
+	<set xpath="/traders/trader_info/@close_time">23:50</set>
+
+	<!-- -->
+
+</configs>

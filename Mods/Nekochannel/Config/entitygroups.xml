@@ -1,0 +1,117 @@
+<configs>
+	<!-- -->
+	<insertAfter xpath="/entitygroups/entitygroup[@name='WildGameForest']">
+	
+	<entitygroup name="WildEnemyAnimals">
+		animalSnake, 3
+		animalCoyoteWeak, 10
+		animalRabbit, 26
+		animalChicken, 20
+		animalStag, 15
+		animalDoe, 15
+		animalChickenHostile, 10
+		animalBossChicken, 1
+	</entitygroup>
+	<entitygroup name="WildEnemyAnimalsBurn">
+		animalSnake, 3
+		animalCoyoteWeak, 30
+		animalChicken, 25
+		animalChickenHostile, 41
+		animalBossGrace, 1
+	</entitygroup>
+	<entitygroup name="WildEnemyAnimalsDesert">
+		animalWolf, 15
+		animalCoyote, 69
+		animalChickenHostile, 15
+		animalBossVulture, 1
+	</entitygroup>
+	<entitygroup name="WildEnemyAnimalsSnow">
+		animalCoyote, 13
+		animalWolf, 86
+		animalBossBear, 1
+	</entitygroup>
+	<entitygroup name="WildEnemyAnimalsWaste">
+		animalWolf, 40
+		animalZombieDog, 15
+		animalDireWolf, 5
+		animalZombieBear, 5
+		animalZombieVulture, 7
+		animalBossGrace, 2
+		animalBossVulture, 2
+		animalBossBear, 2
+		animalBossChicken, 2
+		zombieDemolition, 10
+		zombieMutated, 7
+		zombieMutatedFeral, 2
+		zombieMutatedRadiated, .6
+		zombieMutatedCharged, .2
+		zombieMutatedInfernal, .2
+	</entitygroup>
+	</insertAfter>
+	
+	
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesAllWasteland']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNightNoBears']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight2NoBears']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .05
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombieGhostTownGroupGS400']">
+	zombieMutatedCharged, .01
+	zombieMutatedInfernal, .01
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombieGhostTownGroupGS800']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .02
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='zombieHospitalGroupGS400']">
+	zombieMutatedCharged, .01
+	zombieMutatedInfernal, .01
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='zombieHospitalGroupGS800']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .02
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='zombiePrisonGroupGS400']">
+	zombieMutatedCharged, .01
+	zombieMutatedInfernal, .01
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='zombiePrisonGroupGS800']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .02
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombieSpecialInfectedGroupGS400']">
+	zombieMutatedCharged, .01
+	zombieMutatedInfernal, .01
+	</append>
+	<append xpath="/entitygroups/entitygroup[@name='ZombieSpecialInfectedGroupGS800']">
+	zombieMutatedCharged, .05
+	zombieMutatedInfernal, .02
+	</append>
+	<!-- -->
+
+
+
+</configs>

@@ -1,0 +1,1291 @@
+<configs>
+	<!-- L10 200 400 600 800 1000  2000 4000 6000 -->
+	
+	
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSlim']/@value">300</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSlimFeral']/@value">800</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSlimRadiated']/@value">1200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSlimCharged']/@value">1800</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSlimInfernal']/@value">3600</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthNormal']/@value">400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthNormalFeral']/@value">1000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthNormalRadiated']/@value">1600</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthNormalCharged']/@value">2400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthNormalInfernal']/@value">4800</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthUtilityWorker']/@value">400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthUtilityWorkerFeral']/@value">1000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthUtilityWorkerRadiated']/@value">1600</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthUtilityWorkerCharged']/@value">2400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthUtilityWorkerInfernal']/@value">4800</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSturdy']/@value">600</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSturdyFeral']/@value">1200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSturdyRadiated']/@value">2400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSturdyCharged']/@value">3600</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthSturdyInfernal']/@value">7200</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthTough']/@value">700</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthToughFeral']/@value">1400</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthToughRadiated']/@value">2800</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthToughCharged']/@value">4200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthToughInfernal']/@value">8400</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthBrute']/@value">1000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthBruteFeral']/@value">2000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthBruteRadiated']/@value">3000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthBruteCharged']/@value">4000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthBruteInfernal']/@value">12000</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthStrong']/@value">800</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthStrongFeral']/@value">1600</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthStrongRadiated']/@value">3200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthStrongCharged']/@value">4800</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthStrongInfernal']/@value">9600</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthFit']/@value">500</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthFitFeral']/@value">1000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthFitRadiated']/@value">2000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthFitCharged']/@value">3000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthFitInfernal']/@value">9000</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthWightFeral']/@value">2000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthWightRadiated']/@value">3500</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthWightCharged']/@value">5000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthWightInfernal']/@value">10000</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthScreamer']/@value">200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthScreamerFeral']/@value">500</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthScreamerRadiated']/@value">1000</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthScreamerCharged']/@value">1500</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthScreamerInfernal']/@value">3000</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthDemo']/@value">9600</set>
+	
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthCrawler']/@value">200</set>
+	<set xpath="/entity_classes/replace_passive_effect/property[@name='healthCrawlerFeral']/@value">500</set>
+	
+	
+	
+	
+	
+	
+	<!-- -->
+	
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">meleeToolTorch,foodCanCatfood=3,drinkJarPureMineralWater,medicalFirstAidBandage=3,drugCaffeines,oldCash=50,noteDuke01,vehicleTruck4x4Placeable</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='HealthMax'][@value='100']/@value">200</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaMax'][@value='100']/@value">1000</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterMax'][@value='100']/@value">40</set>
+	<insertBefore xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterMax']">
+	<passive_effect name="FoodMax" operation="base_set" value="40"/>
+	</insertBefore>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='10']/@value">10</set> <!-- Base -->
+
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='-1.45']/@value">-10</set> <!-- Run -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='-.1']/@value">-.2</set> <!-- Float -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='-1.15']/@value">-10</set> <!-- Swim -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='-1.9']/@value">-20</set> <!-- SwimRun -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='1.35']/@value">8</set> <!-- GREAT_HEIST_CROUCH_RUN -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaChangeOT'][@value='-.15']/@value">-1</set> <!-- Crouch -->
+	<!-- Edit player entity to increase inventory size -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity'][@value='27']/@value">18</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">96</set>
+	<!-- -->
+	<insertBefore xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerHealthPointGained']">
+		<passive_effect name="FoodLossPerHealthPointGained" operation="base_set" value="0.3"/>
+	</insertBefore>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerHealthPointGained']/@value">0.12</set> <!-- 0.06 -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">0.018</set> <!-- 0.00453 -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='FoodLossPerStaminaPointGained']/@value">0.018</set> <!-- 0.00408 -->
+	<!-- -->
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@operation='base_set'][@tags='jumping']/@value">20</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@operation='base_set'][@tags='swimming']/@value">20</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitPerDeathPercentage'][@value='.25']/@value">.5</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='ExpDeficitMaxPercentage'][@value='.5']/@value">.98</set>
+	<!-- -->
+	
+	<!-- -->
+	<set xpath="/entity_classes/entity_class/property[@name='LootDropProb']/@value">.15</set>
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='TimeStayAfterDeath']/@value">30</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='DeadBodyHitPoints']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MaxViewAngle']/@value">120</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SightRange']/@value">10</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SightLightThreshold']/@value">-2,150</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="35"/>
+	</insertAfter>
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">45</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">50</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">60</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">60</set>
+	<set xpath="/entity_classes/entity_class[@name='animalInsectSwarm']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">60</set>
+	<set xpath="/entity_classes/entity_class[@name='animalInsectSwarm']/effect_group/passive_effect[@name='PhysicalDamageResist'][@invert_tag_check='true']/@value">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalInsectSwarm']/effect_group/passive_effect[@name='HealthMax']/@value">100</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBeeSwarm']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">60</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBeeSwarm']/effect_group/passive_effect[@name='PhysicalDamageResist'][@invert_tag_check='true']/@value">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBeeSwarm']/effect_group/passive_effect[@name='HealthMax']/@value">100</set>
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group/passive_effect[@name='HealthMax'][@operation='perc_add']/@value">-.1,.1</set>
+	
+	
+	<set xpath="/entity_classes/entity_class/property[@name='PainResistPerHit']/@value">.12</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='PainResistPerHit']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/property[@name='PainResistPerHit']/@value">.6</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='PainResistPerHit']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianRadiated']/property[@name='PainResistPerHit']/@value">.6</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']/property[@name='PainResistPerHit']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieBowlerRadiated']/property[@name='PainResistPerHit']/@value">.6</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='PainResistPerHit']/@value">.5</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopRadiated']/property[@name='PainResistPerHit']/@value">.7</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopInfernal']/property[@name='PainResistPerHit']/@value">1, .5, .5</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='PainResistPerHit']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='PainResistPerHit']/@value">.6</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='PainResistPerHit']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/property[@name='PainResistPerHit']/@value">.6</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']/property[@name='PainResistPerHit']/@value">.5</set>
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieDemolition']">
+	
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Censor" value="1,2"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Tags" value="entity,zombie,walker,allbiome,boss"/>
+	<property name="Mesh" value="@:Entities/Zombies/Demolition/ZDemolition.prefab"/>
+	<property name="Mass" value="300"/>
+	<property name="CrouchType" value="0"/>
+
+	<property name="AITask" value="
+	BreakBlock|
+	DestroyArea|
+	ApproachDistraction|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+
+	<property name="SoundRandom" value="demolitionzroam"/>
+	<property name="SoundAlert" value="demolitionzalert"/>
+	<property name="SoundAttack" value="demolitionzattack"/>
+	<property name="SoundHurt" value="demolitionzpain"/>
+	<property name="SoundDeath" value="demolitionzdeath"/>
+	<property name="SoundSense" value="demolitionzsense"/>
+	<property name="SoundStepType" value="heavystep"/>
+
+	<!-- Dismemberment -->
+	<property name ="DismemberTag_L_HeadGore" value="Demolition/Dismemberment/Blade/Head;Demolition/Dismemberment/Blunt/Head" data="type=blade+target=neck+atp=true+detach=true;type=blunt+target=neck+atp=true"/>
+	<property name ="DismemberTag_L_LeftLowerArmGore" value="Demolition/Dismemberment/Blade/LeftLowerArm" data="type=blade+target=leftforearmroll+scale=.85,1,1+atp=true+detach=true+sol=true"/>
+	<property name ="DismemberTag_L_LeftUpperArmGore" value="Demolition/Dismemberment/Blade/LeftUpperArm" data="type=blade+target=leftarmroll+scale=.85,1,1+atp=true+detach=true+sol=true"/>
+	<property name ="DismemberTag_L_LeftUpperLegGore" value="Demolition/Dismemberment/Blade/LeftUpperLeg" data="type=blade+target=leftupleg+detach=true+mask=true+sol=true+soltarget=leftleg+solscale=0,0,0"/>
+	<property name ="DismemberTag_L_RightLowerArmGore" value="Demolition/Dismemberment/Blade/RightLowerArm" data="type=blade+target=rightforearmroll+scale=.95,1,1+atp=true+detach=true+sol=true"/>
+	<property name ="DismemberTag_L_RightUpperArmGore" value="Demolition/Dismemberment/Blade/RightUpperArm" data="type=blade+target=rightarmroll+scale=.8,1,1+atp=true+detach=true+sol=true"/>
+	<property name ="DismemberTag_L_RightUpperLegGore" value="Demolition/Dismemberment/Blade/RightUpperLeg" data="type=blade+target=rightupleg+detach=true+mask=true+sol=true+soltarget=rightleg+solscale=0,0,0"/>
+	<property name ="DismemberTag_L_LeftLowerLegGore" value="linked" data="DismemberTag_L_LeftUpperLegGore"/>
+	<property name ="DismemberTag_L_RightLowerLegGore" value="linked" data="DismemberTag_L_RightUpperLegGore"/>
+
+	<!-- Gameplay zombieDemolition -->
+	<property name="HandItem" value="meleeHandZombieDemolition"/>
+	<property name="JumpMaxDistance" value="1, 2"/>
+	<property name="PainResistPerHit" value=".5"/>
+	<property name="Explosion.ParticleIndex" value="2"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="500"/>
+	<property name="Explosion.EntityDamage" value="800"/>
+	<property name="Explosion.DamageBonus.metal" value=".2"/>
+	<property name="Explosion.DamageBonus.stone" value=".5"/>
+	<property name="Explosion.DamageBonus.earth" value=".2"/>
+	<property name="Explosion.DamageBonus.water" value="0"/>
+	<property name="StompsSpikes" value="true"/>
+	<property name="ExplodeDelay" value="5"/>
+	<property name="ExplodeHealthThreshold" value="0"/> <!-- Disable Health explosion -->
+	<property name="SoundExplodeWarn" value="demolitionzexplodewarning"/>
+	<property name="SoundTick" value="demolitionz_beep,.5,.9"/>
+
+	<property name="ExperienceGain" value="^xpStrongFeral03"/><!-- zombieDemolition -->
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value=".3"/> <!-- Demo -->
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="^healthDemo"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+	</effect_group>
+	
+	</set>
+	
+	
+	
+
+	
+	
+	
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='9']/@value">25</set>
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='8']/@value">24</set>
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='6']/@value">23</set>
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='5']/@value">22</set>
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='4.5']/@value">20</set>
+	<set xpath="/entity_classes/entity_class/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='4']/@value">18</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='2.5']/@value">16</set>
+	
+	
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='MaxViewAngle']/@value">270</set>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='SightRange']/@value">30</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='SightRange']/@value">50</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='ExperienceGain']/@value">1000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='TimeStayAfterDeath']/@value">600</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">30</set>
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/effect_group/passive_effect[@name='HealthMax']/@value">1000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalStag']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="40" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDoe']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">30</set>
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/property[@name='ExperienceGain']/@value">400</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">3</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/effect_group/passive_effect[@name='HealthMax']/@value">100</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/property[@name='ExperienceGain']/@value">400</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">3</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceFeather'][@tag='butcherHarvest']/@count">30</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">5</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalChickenHostile']/drop[@name='resourceFeather']">
+	<drop event="Harvest" name="foodEgg" tag="butcherHarvest" count="1"/>
+	</insertAfter>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/effect_group/passive_effect[@name='HealthMax']/@value">120</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalChicken']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="20" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='LookAtAngle']/@value">90</set>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='SightRange']/@value">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='TimeStayAfterDeath']/@value">600</set>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='ExperienceGain']/@value">1500</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">3000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">30</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">6</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">50</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/effect_group/passive_effect[@name='HealthMax']/@value">4000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalBear']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="50" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/property[@name='ExperienceGain']/@value">1500</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">3</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">25</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBearSmall']/effect_group/passive_effect[@name='HealthMax']/@value">2000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalBearSmall']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="40" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">5000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">50</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">30</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">6</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">50</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/effect_group/passive_effect[@name='HealthMax']/@value">5000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalZombieBear']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="20"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="60" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">7</set>
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">3</set>
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalWolf']/effect_group/passive_effect[@name='HealthMax']/@value">1000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalDireWolf']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="40" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='ExperienceGain']/@value">4500</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">50</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">25</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">6</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">40</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/effect_group/passive_effect[@name='HealthMax']/@value">4000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalDireWolf']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="20"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="60" tags="ranged"/>
+	</insertAfter>
+	
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='animalChickenHostile']">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,chicken,hostile,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="@:Entities/Animals/Bird/animalBirdChickenPrefab.prefab"/>
+	<property name="PrefabCombined" value="true"/>
+	<property name="Parent" value="Animals"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="chicken"/>
+	<property name="Mass" value="60"/>
+	<property name="Weight" value="15"/>
+	<property name="SoundRandom" value="chickenroam"/>
+	<property name="SoundHurt" value="chickenpain"/>
+	<property name="SoundDeath" value="chickendeath"/>
+	<property name="SoundStepType" value="animallightstep"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="CanBigHead" value="false"/>
+	<property name="AIFeralSense" value="1.6"/>
+	<property name="AIGroupCircle" value="0"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,15,EntityBandit,15,EntityAnimalRabbit,30,EntityZombie,20"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="flags=player"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityBandit,0,-8,EntityAnimalRabbit,0,0,EntityZombie,0,-5"/>
+	<property name="AITarget-5" value=""/>
+
+	<property name="MoveSpeed" value=".4"/>
+	<property name="MoveSpeedAggro" value="1.25, 1.55"/>
+	<property name="SizeScale" value="1.6"/>
+	<property name="LookAtAngle" value="270"/>
+	<property name="MaxViewAngle" value="360"/>
+	<property name="SightRange" value="15"/>
+	<property name="SightLightThreshold" value="-2,-2"/>
+	
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleeHandAnimalChicken"/>
+	<property name="MoveSpeedPanic" value="1.5"/>
+	<property name="ExperienceGain" value="400"/><!-- XP_MURDER_CHICKEN -->
+	<property name="DeadBodyHitPoints" value="175"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="3"/> <!-- animalChicken -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="foodEgg" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="250"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+	</effect_group>
+
+	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_chicken"/>
+	
+	</set>
+	
+	
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='Tags']/@value">entity,animal,coyote,hostile,perkAT02,perkAT03,perkAT04,perkAT05</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='ExperienceGain']/@value">600</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">3</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/effect_group/passive_effect[@name='HealthMax']/@value">500</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">4</set>
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalMountainLion']/effect_group/passive_effect[@name='HealthMax']/@value">1500</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalMountainLion']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="50" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='MoveSpeed']/@value">.4</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='MoveSpeedNight']/@value">.2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='MoveSpeedAggro']/@value">1.0, 1.2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/property[@name='MoveSpeedPanic']/@value">1.0</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">6</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieDog']/effect_group/passive_effect[@name='HealthMax']/@value">600</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalZombieDog']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="50" tags="ranged"/>
+	</insertAfter>
+	
+	
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='LookAtAngle']">
+	<property name="SizeScale" value="1.5"/>
+	</insertAfter>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeed']/@value">.15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeedAggro']/@value">0.2, 0.5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='MoveSpeedPanic']/@value">0.2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='ExperienceGain']/@value">300</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">2</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/effect_group/passive_effect[@name='HealthMax']/@value">150</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalSnake']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="60" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='foodRawMeat'][@tag='butcherHarvest']/@count">15</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceLeather'][@tag='butcherHarvest']/@count">10</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceAnimalFat'][@tag='butcherHarvest']/@count">5</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/drop[@name='resourceBone'][@tag='butcherHarvest']/@count">20</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBoar']/effect_group/passive_effect[@name='HealthMax']/@value">600</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalBoar']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="60" tags="ranged"/>
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='ExperienceGain']/@value">12000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/drop[@name='foodRottingFlesh'][@tag='butcherHarvest']/@count">200</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/effect_group/passive_effect[@name='HealthMax']/@value">15000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalBossGrace']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="20"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	<passive_effect name="PhysicalDamageResist" operation="base_set" value="60" tags="ranged"/>
+	</insertAfter>
+	
+	<insertAfter xpath="/entity_classes/entity_class[@name='animalBossGrace']">
+	
+	<entity_class name="animalCoyoteWeak" extends="animalWolf">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,coyote,hostile,perkAT01,perkAT02,perkAT03,perkAT04,perkAT05"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_wolf"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_wolf"/>
+	<property name="PhysicsBody" value="AWolf"/>
+	<property name="Mass" value="65"/>
+	<property name="Prefab" value="@:Entities/Animals/Wolf/animalDogCoyotePrefab.prefab"/>
+	<property name="PrefabCombined" value="true"/>
+
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="Territorial"/>
+	<property name="AITask-3" value="RunawayWhenHurt" data="runChance=.9;healthPer=.4;healthPerMax=0.5"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,10,EntityAnimalRabbit,8"/>
+	<property name="AITask-5" value="ApproachSpot"/>
+	<property name="AITask-6" value="Look"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="AITask-8" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,15,10,EntityAnimalRabbit,0,18"/>
+	<property name="AITarget-4" value=""/>
+
+	<property name="SoundRandom" value="coyoteroam"/>
+	<property name="SoundAlert" value="wolfalert"/>
+	<property name="SoundHurt" value="wolfpain"/>
+	<property name="SoundDeath" value="wolfdeath"/>
+	<property name="SoundAttack" value="wolfattack"/>
+	<property name="SoundSense" value="wolfsense"/>
+	<property name="SoundGiveUp" value="wolfgiveup"/>
+	<property name="SoundStepType" value="dogstep"/>
+
+	<property name="HandItem" value="meleeHandAnimalChicken"/>
+	<property name="ExperienceGain" value="350"/><!-- XP Coyote -->
+	<property name="DeadBodyHitPoints" value="300"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="300"/>
+	</effect_group>
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="1"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
+
+	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_coyote,clear_sleeper"/>
+</entity_class>
+	
+	
+	
+	<entity_class name="animalBossChicken" extends="animalTemplateHostile">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,chicken,hostile,perkAT03,perkAT04,perkAT05,boss"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="Prefab" value="@:Entities/Animals/Bird/animalBirdChickenPrefab.prefab"/>
+	<property name="PrefabCombined" value="true"/>
+	<property name="Parent" value="Animals"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="Faction" value="animals"/>
+	<property name="PhysicsBody" value="chicken"/>
+	<property name="Mass" value="300"/>
+	<property name="Weight" value="50"/>
+	<property name="SoundHurt" value="chickenpain"/>
+	<property name="SoundDeath" value="chickendeath"/>
+	<property name="SoundStepType" value="animallightstep"/>
+	<property name="DismemberMultiplierHead" value="0"/>
+	<property name="SwimOffset" value="2"/>
+	<property name="CanBigHead" value="false"/>
+	<property name="SizeScale" value="4"/>
+	<property name="AIFeralSense" value="1.6"/>
+	<property name="AIGroupCircle" value="0"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityPlayer,100"/>
+	<property name="AITask-3" value="ApproachSpot"/>
+	<property name="AITask-4" value="DestroyArea"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" data="class=EntityPlayer"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestCorpseAsTarget" data="flags=player"/>
+	<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,8,EntityBandit,0,-8,EntityAnimalStag,0,0,EntityZombie,0,-8"/>
+	<property name="AITarget-5" value=""/>
+	<property name="LookAtAngle" value="90"/>
+
+	<property name="MoveSpeed" value="1"/>
+	<property name="MoveSpeedAggro" value="1.35, 1.5"/>
+	<property name="PainResistPerHit" value="0.9"/>
+	<property name="MaxViewAngle" value="240"/>
+	<property name="SightRange" value="25"/>
+	<property name="SightLightThreshold" value="-2,-2"/>
+	
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleeHandBossChicken"/>
+	<property name="MoveSpeedPanic" value="1.1"/>
+	<property name="ExperienceGain" value="8000"/><!-- XP Murder Chicken -->
+	<property name="LootDropEntityClass" value="EntityLootContainerMutant1"/>
+	<property name="LootDropProb" value="1"/>
+	<property name="DeadBodyHitPoints" value="4000"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalChicken -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="300"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="50"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="15000"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="50" tags="ranged"/>
+	</effect_group>
+
+	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_chicken"/>
+</entity_class>
+
+
+<entity_class name="animalBossVulture" extends="animalZombieVulture">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,zombie,zombieAnimal,hostile,radiated,vulture"/>
+	<property name="Mass" value="90"/>
+	<property name="SizeScale" value="3"/>
+	<property name="LookAtAngle" value="90"/>
+	<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+	<property name="MoveSpeed" value=".7"/>
+	<property name="MoveSpeedAggro" value="0.8, 0.8"/>
+	<property name="MaxTurnSpeed" value="200"/>
+	<property name="MaxViewAngle" value="150"/>
+	<property name="SightRange" value="70"/>
+	<property name="PainResistPerHit" value="1"/>
+	<property name="HandItem" value="meleeHandBossVulture"/>
+
+	<property name="ExperienceGain" value="25000"/><!-- XP Vulture Radiated -->
+
+	<property name="DeadBodyHitPoints" value="3000"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerMutant1"/>
+	<property name="LootDropProb" value="1"/>
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="200"/> <!-- animalZombieVultureRadiated -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="200"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="100"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="20"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="40000"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="30" tags="ranged"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="50"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</effect_group>
+</entity_class>
+
+
+
+<entity_class name="animalBossBear" extends="animalTemplateHostile">
+	<property name="UserSpawnType" value="Menu"/>
+	<property name="Tags" value="entity,animal,hostile,bear,perkAT04,perkAT05,boss"/>
+	<property name="Prefab" value="@:Entities/Animals/Bear/animalBearGrizzlyPrefab.prefab"/>
+	<property name="PrefabCombined" value="true"/>
+	<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
+	<property name="TrackerIcon" value="ui_game_symbol_tracking_bear"/>
+	<property name="AvatarController" value="AvatarAnimalController"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="HasRagdoll" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="RagdollOnDeathChance" value=".5"/>
+	<property name="PhysicsBody" value="bear"/>
+	<property name="Mass" value="1000"/>
+	<property name="SizeScale" value="1.3"/>
+
+	<property name="AISeeOffset" value=".8"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="DestroyArea"/>
+	<property name="AITask-3" value="Territorial"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityPlayer,25,EntityBandit,25,EntityAnimalStag,40,EntityZombie,30"/>
+	<property name="AITask-5" value="ApproachSpot"/>
+	<property name="AITask-6" value="Look"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="AITask-8" value=""/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+	<property name="AITarget-2" value="BlockingTargetTask"/>
+	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,9,EntityBandit,0,-6,EntityAnimalStag,0,0,EntityZombie,0,-6"/>
+	<property name="AITarget-4" value=""/>
+
+	<property name="SoundHurt" value="bearpain"/>
+	<property name="SoundDeath" value="beardeath"/>
+	<property name="SoundRandom" value="bearroam"/>
+	<property name="SoundSense" value="bearsense"/>
+	<property name="SoundAlert" value="bearalert"/>
+	<property name="SoundAttack" value="bearattack"/>
+	<property name="SoundGiveUp" value="beargiveup"/>
+	<property name="SoundStepType" value="animalhvystep"/>
+
+	<!-- Gameplay -->
+	<property name="HandItem" value="meleeHandBossBear"/>
+	<property name="MoveSpeed" value=".5"/>
+	<property name="MoveSpeedAggro" value="1.8, 1.8"/>
+	<property name="PainResistPerHit" value="1"/>
+	<property name="DeadBodyHitPoints" value="4000"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerMutant1"/>
+	<property name="LootDropProb" value="1"/>
+	<property name="ExperienceGain" value="30000"/><!-- XP Bear -->
+
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="100"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="20"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="50"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="10"/>
+	<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="4"/>
+
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="30000"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
+	</effect_group>
+
+	<property name="NavObject" value="twitch_spawn,twitch_spawn_other,animaltracking_bear,clear_sleeper"/>
+</entity_class>
+
+
+
+
+	</insertAfter>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateTimid']/property[@name='DeadBodyHitPoints']/@value">1200</set>
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/property[@name='DeadBodyHitPoints']/@value">400</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/property[@name='DeadBodyHitPoints']/@value">400</set>
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='DeadBodyHitPoints']/@value">1000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='DeadBodyHitPoints']/@value">2000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='DeadBodyHitPoints']/@value">2000</set>
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='DeadBodyHitPoints']/@value">1500</set>
+	<set xpath="/entity_classes/entity_class[@name='animalChickenHostile']/property[@name='DeadBodyHitPoints']/@value">500</set>
+	<set xpath="/entity_classes/entity_class[@name='animalCoyote']/property[@name='DeadBodyHitPoints']/@value">500</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVulture']/property[@name='DeadBodyHitPoints']/@value">300</set>
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/property[@name='DeadBodyHitPoints']/@value">600</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='DeadBodyHitPoints']/@value">400</set>
+	
+
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedAggro']/@value">0.2, 1.0</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedRand']/@value">-.1, .15</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateSlimFemale']/property[@name='MoveSpeedAggro']/@value">0.3, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieArlene']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMarlene']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirl']/property[@name='MoveSpeedAggro']/@value">0.4, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/property[@name='MoveSpeedAggro']/@value">0.4, 1.45</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieNurse']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieJoe']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSteve']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieTomClark']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessMan']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBurnt']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<!-- 
+	<set xpath="/entity_classes/entity_class[@name='zombiePlagueSpitter']/property[@name='MoveSpeedAggro']/@value">0.2, 0.7</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombiePlagueSpitterFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFrostclaw']/property[@name='MoveSpeedAggro']/@value">0.2, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFrostclawFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	-->
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSpider']/property[@name='MoveSpeedAggro']/@value">0.2, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMaleHazmat']/property[@name='MoveSpeedAggro']/@value">0.2, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMaleHazmatRadiated']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieJanitorRadiated']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieInmateFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieInmateRadiated']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.3</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjack']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/property[@name='MoveSpeedAggro']/@value">0.2, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='MoveSpeedAggro']/@value">0.2, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBowler']/property[@name='MoveSpeedAggro']/@value">0.2, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='MoveSpeedAggro']/@value">0.2, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/property[@name='MoveSpeedAggro']/@value">0.2, 1.2</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldier']/property[@name='MoveSpeedAggro']/@value">0.2, 1.1</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='MoveSpeedAggro']/@value">0.8, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='MoveSpeedAggro']/@value">0.2, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='MoveSpeedAggro']/@value">0.2, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutated']/property[@name='MoveSpeedAggro']/@value">1, 1.25</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='MoveSpeedAggro']/@value">1, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/property[@name='MoveSpeedAggro']/@value">1, 1.35</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']/property[@name='MoveSpeedAggro']/@value">0.4, 0.7</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/property[@name='MoveSpeedAggro']/@value">0.4, 0.8</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieRancher']/property[@name='MoveSpeedAggro']/@value">0.4, 0.9</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieRancherFeral']/property[@name='MoveSpeedAggro']/@value">0.4, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieChuck']/property[@name='MoveSpeedAggro']/@value">0.4, 1.0</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieChuckFeral']/property[@name='MoveSpeedAggro']/@value">0.4, 1.2</set>
+	
+
+	
+	
+	<!-- -->
+	
+	<!--
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='ExperienceGain']/@value">400</set>
+	
+	
+	400
+	750
+	1200 1500
+	1400
+	1600
+	
+	600
+	750
+	1200
+	1400
+	1600
+	
+	750
+	1200
+	1500
+	1600
+	
+	1200
+	2000
+	2200
+	2400
+	-->
+	
+	
+	
+	
+	<!-- -->
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead'][@value='.4']/@value">.22</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead'][@value='.7']/@value">.52</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierHead'][@value='1']/@value">.72</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierArms'][@value='.4']/@value">1.62</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierArms'][@value='.7']/@value">2.02</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierArms'][@value='1']/@value">2.82</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierLegs'][@value='.4']/@value">.72</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierLegs'][@value='.7']/@value">1.12</set>
+	<set xpath="/entity_classes/entity_class/property[@name='DismemberMultiplierLegs'][@value='1']/@value">1.62</set>
+	<!-- -->
+	
+	<!-- -->
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="1"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombiePartyGirlFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieTomClarkFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieBurntFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieRancherFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieChuckFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMaleHazmatFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieJanitorFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieInmateFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieLabFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieYoFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieLumberjackFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieBowlerFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieWightFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="30"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieDemolition']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="5"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/effect_group/passive_effect[@name='HealthMax'][@operation='base_set']">
+	
+	<passive_effect name="HealthMax" operation="base_add" value="@$EnemyLevelBonus"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="3"/>
+	<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	
+	</insertAfter>
+	<!-- -->
+	
+	
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieRancher']/property[@name='SightRange']/@value">7</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieChuck']/property[@name='SightRange']/@value">14</set>
+	
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutated']/property[@name='AITask']/@value">
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=1.1;duration=1;minRange=0;maxRange=10;unreachableRange=30|
+	DestroyArea|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	</set>
+	
+	
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='SizeScale']/@value">1.2</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/property[@name='ExperienceGain']/@value">4000</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedFeral']/effect_group/passive_effect[@name='HealthMax']/@value">5000</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/property[@name='ExperienceGain']/@value">10000</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/property[@name='LootDropEntityClass']/@value">EntityLootContainerMutant1</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/effect_group/passive_effect[@name='HealthMax']/@value">10000</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedRadiated']/effect_group/triggered_effect[@cvar='RadiatedRegenAmount'][@value='2.5']/@value">100</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedCharged']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedCharged']/property[@name='ExperienceGain']/@value">80000</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedCharged']/property[@name='LootDropEntityClass']/@value">EntityLootContainerMutant2</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedCharged']/effect_group/passive_effect[@name='HealthMax']/@value">90000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMutatedCharged']/effect_group/passive_effect">
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="400"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</insertAfter>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedInfernal']/property[@name='LootDropProb']/@value">1</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedInfernal']/property[@name='ExperienceGain']/@value">90000</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedInfernal']/property[@name='LootDropEntityClass']/@value">EntityLootContainerMutant3</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMutatedInfernal']/effect_group/passive_effect[@name='HealthMax']/@value">100000</set>
+	<insertAfter xpath="/entity_classes/entity_class[@name='zombieMutatedInfernal']/effect_group/passive_effect">
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="500"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+	</insertAfter>
+	<!-- -->
+	<insertBefore xpath="/entity_classes/entity_class[@name='zombieFemaleFat']/property[@name='SoundRandom']">
+    <property name="AITask" value="
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	</insertBefore>
+	<insertBefore xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='SoundRandom']">
+    <property name="AITask" value="
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	</insertBefore>
+	<insertBefore xpath="/entity_classes/entity_class[@name='zombieBowler']/property[@name='SoundRandom']">
+    <property name="AITask" value="
+	BreakBlock|
+	ApproachDistraction|
+	RangedAttackTarget itemType=1;cooldown=4;duration=5|
+	ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal,0,EntityAnimal|
+	ApproachSpot|
+	Look|
+	Wander|
+	"/>
+	</insertBefore>
+	<!-- -->
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='junkTurretSledge']/property[@name='YawRange']/@value">90</set>
+	<set xpath="/entity_classes/entity_class[@name='junkTurretSledge']/property[@name='EntityDamage']/@value">90</set>
+	<set xpath="/entity_classes/entity_class[@name='junkTurretSledge']/property[@name='MaxOwnerDistance']/@value">34</set>
+	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='junkTurretGun']/property[@name='YawRange']/@value">90</set>
+	<set xpath="/entity_classes/entity_class[@name='junkTurretGun']/property[@name='MaxDistance']/@value">14</set>
+	<set xpath="/entity_classes/entity_class[@name='junkTurretGun']/property[@name='MaxOwnerDistance']/@value">34</set>
+	
+	
+	<insertAfter xpath="/entity_classes/entity_class[@name='EntityLootContainerBoss']">
+	<entity_class name="EntityLootContainerMutant1">
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="UserSpawnType" value="Console"/>
+	<property name="Mesh" value="@:Entities/LootContainers/zpackRedPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackMutant1"/>
+	<property name="Faction" value="none"/>
+	</entity_class>
+	
+	<entity_class name="EntityLootContainerMutant2">
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="UserSpawnType" value="Console"/>
+	<property name="Mesh" value="@:Entities/LootContainers/zpackRedPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackMutant2"/>
+	<property name="Faction" value="none"/>
+	</entity_class>
+	
+	<entity_class name="EntityLootContainerMutant3">
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="UserSpawnType" value="Console"/>
+	<property name="Mesh" value="@:Entities/LootContainers/zpackRedPrefab.prefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="TimeStayAfterDeath" value="3600"/>
+	<property name="LootListOnDeath" value="zPackMutant3"/>
+	<property name="Faction" value="none"/>
+	</entity_class>
+	</insertAfter>
+	
+	
+	
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add']/@operation">base_add</set>
+	
+</configs>

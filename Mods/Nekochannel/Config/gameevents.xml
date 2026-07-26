@@ -1,0 +1,9 @@
+<configs>
+	<!-- -->
+	<set xpath="/gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddSkillPoints']/property/@value">10</set>
+	<set xpath="/gameevents/action_sequence[@name='action_give_points']/action[@class='AddSkillPoints']/property/@value">10</set>
+	
+	
+	<!-- -->
+	<set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']/requirement[@class='RandomRoll']/property[@name='value']/@value">20</set>
+</configs>

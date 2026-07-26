@@ -1,0 +1,1116 @@
+<configs>
+	<!--  -->
+	
+	
+	
+	
+	<!--  -->
+
+<insertAfter xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']">
+
+<recipe name="ammo308mmBulletBall" count="1" craft_time="3" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="6"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="ammoBundle308mmBulletBall" count="1" craft_time="240" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="240"/>
+	<ingredient name="resourceGunPowder" count="480"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="ammo308mmBulletHP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="30"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="ammo308mmBulletHP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo308mmBulletBall" count="1"/>
+	<ingredient name="resourceGunPowder" count="24"/>
+</recipe>
+
+<recipe name="ammo308mmBulletAP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceSteelTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="24"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="ammo308mmBulletAP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo308mmBulletBall" count="1"/>
+	<ingredient name="resourceSteelTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="18"/>
+</recipe>
+
+<recipe name="ammoBundle308mmBulletHP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="240"/>
+	<ingredient name="resourceGunPowder" count="2400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="ammoBundle308mmBulletAP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="resourceSteelTip" count="240"/>
+	<ingredient name="resourceGunPowder" count="1920"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+</insertAfter>
+
+	<!--  -->
+
+	<!--  -->
+	
+	<setattribute xpath="/recipes/recipe[@name='ammo9mmBulletBall']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo9mmBulletHP']" name="craft_time">3</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo9mmBulletAP']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']" name="craft_time">3</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo762mmBulletBall']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo762mmBulletHP']" name="craft_time">3</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammo762mmBulletAP']" name="craft_time">4</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoShotgunShell']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoShotgunSlug']" name="craft_time">3</setattribute>
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/@craft_time">4</set>
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretRegular']" name="craft_time">0.2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretShell']" name="craft_time">0.5</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoJunkTurretAP']" name="craft_time">0.4</setattribute>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/@craft_time">6</set>
+	<setattribute xpath="/recipes/recipe[@name='ammoArrowExploding']" name="craft_time">6</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoArrowIron']" name="craft_time">1</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoArrowSteelAP']" name="craft_time">2</setattribute>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/@craft_time">6</set>
+	<setattribute xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']" name="craft_time">6</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoCrossbowBoltIron']" name="craft_time">1</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']" name="craft_time">2</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='ammoDartIron']" name="craft_time">0.25</setattribute>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletBall']/@craft_time">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']/@craft_time">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/@craft_time">320</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/@craft_time">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/@craft_time">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/@craft_time">320</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']/@craft_time">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']/@craft_time">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/@craft_time">320</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/@craft_time">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/@craft_time">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/@craft_time">320</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']/@craft_time">180</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']/@craft_time">400</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/@craft_time">320</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/@craft_time">480</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/@craft_time">480</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowIron']/@craft_time">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']/@craft_time">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/@craft_time">480</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/@craft_time">480</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltIron']/@craft_time">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']/@craft_time">160</set>
+	
+	
+	
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletHP']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">12</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">960</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletAP']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammo9mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle9mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">400</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']/ingredient[@name='resourceBulletTip']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletBall']/ingredient[@name='resourceGunPowder']/@count">3</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/ingredient[@name='resourceBulletTip']/@count">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletBall']/ingredient[@name='resourceGunPowder']/@count">240</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']/ingredient[@name='resourceBulletTip']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletHP']/ingredient[@name='resourceGunPowder']/@count">16</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/ingredient[@name='resourceBulletTip']/@count">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletHP']/ingredient[@name='resourceGunPowder']/@count">1280</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']/ingredient[@name='resourceBulletTip']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammo44MagnumBulletAP']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/ingredient[@name='resourceBulletTip']/@count">160</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle44MagnumBulletAP']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletBall']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">2</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletBall']/ingredient[@name='resourceGunPowder']/@count">160</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletHP']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">16</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletHP']/ingredient[@name='resourceGunPowder']/@count">1280</set>
+	
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletAP']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammo762mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/ingredient[@name='resourceBulletTip']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoBundle762mmBulletAP']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunShell']/ingredient[@name='resourceBuckshot']/@count">6</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunShell']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunShell']/ingredient[@name='resourcePaper']/@count">1</set>
+	<append xpath="/recipes/recipe[@name='ammoShotgunShell']">
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/ingredient[@name='resourceBuckshot']/@count">480</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunShell']/ingredient[@name='resourcePaper']/@count">80</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleShotgunShell']">
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunSlug']/ingredient[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunSlug']/ingredient[@name='resourceBulletTip']/@name">resourcePaper</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunSlug']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunSlug']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	<append xpath="/recipes/recipe[@name='ammoShotgunSlug']">
+	<ingredient name="resourceBulletCasing" count="1"/>
+	<ingredient name="resourceSteelTip" count="3"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceBulletTip']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceBulletTip']/@name">resourcePaper</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']/ingredient[@name='resourceScrapPolymers']/@count">80</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleShotgunSlug']">
+	<ingredient name="resourceBulletCasing" count="80"/>
+	<ingredient name="resourceSteelTip" count="240"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceForgedSteel']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceClayLump']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceForgedSteel']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']/ingredient[@name='resourceClayLump']/@name">resourceArrowHeadSteelAP</set>
+	<append xpath="/recipes/recipe[@name='ammoShotgunBreachingSlug']">
+	<ingredient name="resourceBulletCasing" count="1"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceForgedSteel']/@count">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceClayLump']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceGunPowder']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceScrapPolymers']/@count">80</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceForgedSteel']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']/ingredient[@name='resourceClayLump']/@name">resourceArrowHeadSteelAP</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleShotgunBreachingSlug']">
+	<ingredient name="resourceBulletCasing" count="80"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretRegular']/ingredient[@name='resourceScrapLead']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretRegular']/ingredient[@name='resourceScrapLead']/@name">resourceBulletTip</set>
+	<append xpath="/recipes/recipe[@name='ammoJunkTurretRegular']">
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	</append>
+
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']/ingredient[@name='resourceScrapLead']/@count">800</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']/ingredient[@name='resourceScrapLead']/@name">resourceBulletTip</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleJunkTurretRegular']">
+	<ingredient name="resourceGunPowder" count="800"/>
+	<ingredient name="resourcePaper" count="800"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretShell']/ingredient[@name='resourceScrapLead']/@name">resourceGunPowder</set>
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretShell']/ingredient[@name='resourceBuckshot']/@count">5</set>
+	<append xpath="/recipes/recipe[@name='ammoJunkTurretShell']">
+	<ingredient name="resourcePaper" count="1"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']/ingredient[@name='resourceScrapLead']/@name">resourceGunPowder</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']/ingredient[@name='resourceBuckshot']/@count">4000</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleJunkTurretShell']">
+	<ingredient name="resourcePaper" count="800"/>
+	</append>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretAP']/ingredient[@name='resourceScrapLead']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretAP']/ingredient[@name='resourceScrapLead']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretAP']/ingredient[@name='resourceScrapIron']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoJunkTurretAP']/ingredient[@name='resourceScrapIron']/@name">resourceGunPowder</set>
+	<append xpath="/recipes/recipe[@name='ammoJunkTurretAP']">
+	<ingredient name="resourcePaper" count="1"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/ingredient[@name='resourceScrapLead']/@count">1600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/ingredient[@name='resourceScrapLead']/@name">resourceSteelTip</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/ingredient[@name='resourceScrapIron']/@count">3200</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']/ingredient[@name='resourceScrapIron']/@name">resourceGunPowder</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleJunkTurretAP']">
+	<ingredient name="resourcePaper" count="800"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceArrowHeadSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceGunPowder']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceCloth']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceAnimalFat']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowFlaming']/ingredient[@name='resourceAnimalFat']/@name">ammoGasCan</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceArrowHeadSteelAP']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceScrapPolymers']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceGunPowder']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceCloth']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceAnimalFat']/@count">600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowFlaming']/ingredient[@name='resourceAnimalFat']/@name">ammoGasCan</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceArrowHeadSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceYuccaFibers']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowExploding']/ingredient[@name='resourceYuccaFibers']/@name">ammoGasCan</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/ingredient[@name='resourceArrowHeadSteelAP']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/ingredient[@name='resourceScrapPolymers']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/ingredient[@name='resourceGunPowder']/@count">600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/ingredient[@name='resourceYuccaFibers']/@count">120</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowExploding']/ingredient[@name='resourceYuccaFibers']/@name">ammoGasCan</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoArrowSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowSteelAP']/ingredient[@name='resourceScrapPolymers']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='ammoArrowSteelAP']/ingredient[@name='resourceScrapPolymers']/@name">resourceWood</set>
+	<append xpath="/recipes/recipe[@name='ammoArrowSteelAP']">
+	<ingredient name="resourceFeather" count="2"/>
+	</append>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']/ingredient[@name='resourceArrowHeadSteelAP']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']/ingredient[@name='resourceScrapPolymers']/@count">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']/ingredient[@name='resourceScrapPolymers']/@name">resourceWood</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleArrowSteelAP']">
+	<ingredient name="resourceFeather" count="160"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceArrowHeadSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceGunPowder']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceCloth']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@name">ammoGasCan</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceArrowHeadSteelAP']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceScrapPolymers']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceGunPowder']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceCloth']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@count">600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltFlaming']/ingredient[@name='resourceAnimalFat']/@name">ammoGasCan</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceArrowHeadSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceScrapPolymers']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceYuccaFibers']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltExploding']/ingredient[@name='resourceYuccaFibers']/@name">ammoGasCan</set>
+
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/ingredient[@name='resourceArrowHeadSteelAP']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/ingredient[@name='resourceScrapPolymers']/@count">60</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/ingredient[@name='resourceGunPowder']/@count">600</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/ingredient[@name='resourceYuccaFibers']/@count">120</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltExploding']/ingredient[@name='resourceYuccaFibers']/@name">ammoGasCan</set>
+
+	
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']/ingredient[@name='resourceScrapPolymers']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']/ingredient[@name='resourceScrapPolymers']/@name">resourceWood</set>
+	<append xpath="/recipes/recipe[@name='ammoCrossbowBoltSteelAP']">
+	<ingredient name="resourceFeather" count="2"/>
+	</append>
+	
+	
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']/ingredient[@name='resourceArrowHeadSteelAP']/@count">80</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']/ingredient[@name='resourceScrapPolymers']/@count">240</set>
+	<set xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']/ingredient[@name='resourceScrapPolymers']/@name">resourceWood</set>
+	<append xpath="/recipes/recipe[@name='ammoBundleCrossbowBoltSteelAP']">
+	<ingredient name="resourceFeather" count="160"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='ammoRocketFrag']/ingredient[@name='resourceBuckshot']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoRocketFrag']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoRocketFrag']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoRocketFrag']/ingredient[@name='ammoGasCan']/@count">100</set>
+	
+	<set xpath="/recipes/recipe[@name='ammoRocketHE']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='ammoRocketHE']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='ammoRocketHE']/ingredient[@name='ammoGasCan']/@count">100</set>
+	
+	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='resourceCloth']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='thrownAmmoMolotovCocktail']/ingredient[@name='ammoGasCan']/@count">100</set>
+	
+	<set xpath="/recipes/recipe[@name='thrownAmmoPipeBomb']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	
+	<set xpath="/recipes/recipe[@name='thrownGrenade']/ingredient[@name='resourceMechanicalParts']/@name">resourceScrapPolymers</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenade']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenade']/ingredient[@name='resourceForgedIron']/@count">24</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenade']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+	
+	<set xpath="/recipes/recipe[@name='thrownGrenadeContact']/ingredient[@name='resourceMechanicalParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenadeContact']/ingredient[@name='resourceGunPowder']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenadeContact']/ingredient[@name='resourceForgedIron']/@count">24</set>
+	<set xpath="/recipes/recipe[@name='thrownGrenadeContact']/ingredient[@name='resourceForgedIron']/@name">resourceScrapIron</set>
+	
+	<set xpath="/recipes/recipe[@name='thrownDynamite']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	
+	
+		<!-- ammo recraft -->
+	<insertBefore xpath="/recipes/recipe[@name='ammoJunkTurretRegular']">
+	
+<recipe name="ammo9mmBulletHP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="1"/>
+	<ingredient name="resourceGunPowder" count="9"/>
+</recipe>
+
+<recipe name="ammo9mmBulletAP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo9mmBulletBall" count="1"/>
+	<ingredient name="resourceSteelTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="4"/>
+</recipe>
+
+<recipe name="ammo44MagnumBulletHP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletBall" count="1"/>
+	<ingredient name="resourceGunPowder" count="14"/>
+</recipe>
+
+<recipe name="ammo44MagnumBulletAP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo44MagnumBulletBall" count="1"/>
+	<ingredient name="resourceSteelTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="8"/>
+</recipe>
+
+<recipe name="ammo762mmBulletHP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo762mmBulletBall" count="1"/>
+	<ingredient name="resourceGunPowder" count="14"/>
+</recipe>
+
+<recipe name="ammo762mmBulletAP" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammo762mmBulletBall" count="1"/>
+	<ingredient name="resourceSteelTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="8"/>
+</recipe>
+
+<recipe name="ammoShotgunBreachingSlug" count="1" craft_time="3" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ammoShotgunSlug" count="1"/>
+	<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+	
+	</insertBefore>
+	
+	
+	
+	<!-- drinks -->
+	
+	<set xpath="/recipes/recipe[@name='drinkJarEmpty']/ingredient[@name='unit_glass']/@count">50</set>
+	<set xpath="/recipes/recipe[@name='drinkJarEmpty']/ingredient[@name='unit_clay']/@count">10</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='drinkJarBoiledWater']/@craft_tool">toolBeaker</set>
+	<append xpath="/recipes/recipe[@name='drinkJarBoiledWater']">
+	<ingredient name="resourceCoal" count="3"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+	<ingredient name="resourceCrushedSand" count="3"/>
+	<ingredient name="resourceCloth" count="1"/>
+	</append>
+	
+	<insertAfter xpath="/recipes/recipe[@name='drinkJarBoiledWater']">
+	
+	<recipe name="drinkJarBoiledDirtyWater" count="3" craft_time="1" tags="packMuleCrafting">
+	<ingredient name="drinkRainWater" count="1"/>
+	</recipe>
+	
+	<recipe name="drinkJarBoiledWater" count="3" craft_time="1" tags="packMuleCrafting">
+	<ingredient name="drinkCleanWater" count="1"/>
+	</recipe>
+	
+	
+	<recipe name="drinkJarBoiledWater" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="drinkJarBoiledDirtyWater" count="1"/>
+	<ingredient name="resourceCoal" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceCrushedSand" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	</recipe>
+	
+	<recipe name="drinkJarBoiledDirtyWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="drinkJarRiverWater" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	</recipe>
+	
+	<recipe name="drinkJarRiverWater" count="1" tags="packMuleCrafting">
+	<ingredient name="resourceSnowBall" count="10"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceGlue" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering">
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="drinkJarBoiledDirtyWater" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceGlue" count="1" craft_time="15" craft_area="campfire" craft_tool="toolCookingPot" tags="perkAdvancedEngineering">
+	<ingredient name="resourceBone" count="15"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+	</recipe>
+	</insertAfter>
+	
+	
+	
+	
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasAwesomeSauce']/effect_group/passive_effect[@name='CraftingIngredientCount']/@value">-.3,-.7</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/ingredient[@name='foodCanDogfood']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/ingredient[@name='drinkJarRedTea']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasLearningElixir']/ingredient[@name='resourceAcid']/@name">resourceAcid</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasMoonshine']/ingredient[@name='resourceAcid']/@name">resourceAcid</set>
+	<set xpath="/recipes/recipe[@name='drinkJarGrandpasMoonshine']/effect_group/passive_effect[@name='CraftingIngredientCount']/@value">-2,-4</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']/ingredient[@name='resourceSnowBall']/@count">50</set>
+	<set xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']/ingredient[@name='foodCropYuccaFruit']/@count">6</set>
+	<set xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']/ingredient[@name='foodCropBlueberries']/@count">6</set>
+	<insertAfter xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']/ingredient[@name='resourceSnowBall']">
+	<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+	</insertAfter>
+	<!-- -->
+	<insertBefore xpath="/recipes/recipe[@name='drugRecog'][@craft_area='chemistryStation']">
+	<recipe name="drugVitamins" count="1" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+	<ingredient name="foodShamSandwich" count="1"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	
+	<recipe name="drugCaffeines" count="1" craft_area="campfire" craft_tool="toolBeaker" tags="learnable">
+	<ingredient name="resourcePotassiumNitratePowder" count="2"/>
+	<ingredient name="resourceCropCoffeeBeans" count="6"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="drugCaffeines" count="1" craft_area="chemistryStation" tags="learnable">
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceCropCoffeeBeans" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	</insertBefore>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='drugRecog']/ingredient[@name='resourceAcid']/@name">resourceOil</set>
+	<!-- -->
+	<insertBefore xpath="/recipes/recipe[@name='foodChiliDog']">
+	
+	<recipe name="foodMisoChicken" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanMiso" count="1"/>
+	<ingredient name="foodCanChicken" count="1"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="resourceAnimalFat"/>
+	</effect_group>
+	</recipe>
+	<recipe name="foodVegetableChicken" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanSoup" count="1"/>
+	<ingredient name="foodCropPotato" count="3"/>
+	<ingredient name="foodCropCorn" count="3"/>
+	<ingredient name="foodCropMushrooms" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCropPotato,foodCropCorn,foodCropMushrooms"/>
+	</effect_group>
+	</recipe>
+	<recipe name="foodFruitMixPie" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodPumpkinBread" count="1"/>
+	<ingredient name="foodCropBlueberries" count="6"/>
+	<ingredient name="foodCropYuccaFruit" count="6"/>
+	<ingredient name="foodEgg" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodCropBlueberries,foodCropYuccaFruit"/>
+	</effect_group>
+	</recipe>
+	<recipe name="foodUltraCatSoup" count="2" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef,learnable">
+	<ingredient name="foodCanCatfood" count="1"/>
+	<ingredient name="foodGrilledMeat" count="5"/>
+	<ingredient name="foodEgg" count="3"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="1,3" operation="base_add" value="-1,-2" tags="foodEgg,resourceAnimalFat"/>
+	</effect_group>
+	</recipe>
+	
+	</insertBefore>
+	<!-- -->
+	
+	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='foodBaconAndEggs']/ingredient[@name='foodRawMeat']/@name">foodGrilledMeat</set>
+	
+	<set xpath="/recipes/recipe[@name='foodBoiledMeat']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodBoiledMeat']/ingredient[@name='foodRawMeat']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='foodCharredMeat']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodCharredMeat']/ingredient[@name='foodRawMeat']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='foodChiliDog']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodChiliDog']/ingredient[@name='foodGrilledMeat']/@count">5</set>
+	
+	<setattribute xpath="/recipes/recipe[@name='foodGrilledMeat']" name="craft_time">15</setattribute>
+	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodGrilledMeat']/ingredient[@name='foodRawMeat']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='foodMeatStew']/ingredient[@name='foodGrilledMeat']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='foodHoneyBrisket']/ingredient[@name='foodGrilledMeat']/@count">5</set>
+	
+	<set xpath="/recipes/recipe[@name='foodBlueberryPie']/ingredient[@name='drinkJarBoiledWater']/@name">foodCornBread</set>
+	
+	<set xpath="/recipes/recipe[@name='foodPumpkinPie']/ingredient[@name='drinkJarBoiledWater']/@name">foodPumpkinBread</set>
+	<remove xpath="/recipes/recipe[@name='foodPumpkinPie']/ingredient[@name='foodCornMeal']"/>
+	
+	<set xpath="/recipes/recipe[@name='foodPumpkinCheesecake']/ingredient[@name='foodCornMeal']/@name">foodPumpkinBread</set>
+	
+	<set xpath="/recipes/recipe[@name='foodPumpkinBread']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='foodPumpkinBread']/ingredient[@name='foodCropPumpkin']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodPumpkinBread']/ingredient[@name='foodCornMeal']/@count">2</set>
+	
+	<set xpath="/recipes/recipe[@name='foodEggBoiled']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodEggBoiled']/ingredient[@name='foodEgg']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodCornBread']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='foodCornBread']/ingredient[@name='foodCornMeal']/@count">5</set>
+
+	<set xpath="/recipes/recipe[@name='foodFishTacos']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodGumboStew']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodGumboStew']/ingredient[@name='foodCanBeef']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodGumboStew']/ingredient[@name='foodCanBeef']/@name">foodGrilledMeat</set>
+	<set xpath="/recipes/recipe[@name='foodGumboStew']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceAnimalFat</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/ingredient[@name='foodCropCorn']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/ingredient[@name='foodCropPotato']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/ingredient[@name='foodCanPeas']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/ingredient[@name='foodCanPeas']/@name">foodGrilledMeat</set>
+	<set xpath="/recipes/recipe[@name='foodShepardsPie']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceAnimalFat</set>
+	<set xpath="/recipes/recipe[@name='foodSpaghetti']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/ingredient[@name='foodCanPeas']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/ingredient[@name='foodCanPeas']/@name">foodGrilledMeat</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/ingredient[@name='foodCornMeal']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/ingredient[@name='foodCornBread']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='foodTunaFishGravyToast']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceAnimalFat</set>
+	<set xpath="/recipes/recipe[@name='foodShamChowder']/@count">2</set>
+	
+	<set xpath="/recipes/recipe[@name='foodSteakAndPotato']/ingredient[@name='foodGrilledMeat']/@count">5</set>
+	
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='resourcePotassiumNitratePowder']/@count">6</set>
+	<set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='resourceClayLump']/@count">50</set>
+	<!-- -->
+	
+	<set xpath="/recipes/recipe[@name='gunHandgunT0PipePistol']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceMetalPipe,resourceWood</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT0PipeShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceMetalPipe,resourceWood</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT0PipeRifle']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceMetalPipe,resourceWood</set>
+	<set xpath="/recipes/recipe[@name='gunMGT0PipeMachineGun']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceMetalPipe,resourceWood</set>
+	
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='resourceForgedSteel']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">10,50</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='resourceForgedSteel']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='resourceSpring']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">20,100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='resourceSpring']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='resourceForgedSteel']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">20,100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='resourceForgedSteel']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">10,50</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='resourceSpring']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='resourceForgedSteel']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">20,100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='resourceForgedSteel']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">10,50</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='resourceSpring']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='resourceForgedSteel']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">20,100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='resourceForgedSteel']/@count">20</set>
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">10,50</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='resourceSpring']/@count">10</set>
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='resourceForgedSteel']/@count">40</set>
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceForgedSteel']/@value">20,100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunExplosivesT3RocketLauncher']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/ingredient[@name='resourceSpring']/@count">5</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/ingredient[@name='resourceLeather']/@count">5</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='resourceForgedIron']/@count">30</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='resourceSpring']/@count">5</set>
+	<set xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='resourceForgedSteel']/@count">30</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='gunBotT3JunkDrone']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnClubT3SteelClub']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT2SteelAxe']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT3SteelSpear']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT3Machete']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolPickT2SteelPickaxe']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT2SteelShovel']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT3SteelSledgehammer']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBatonT0PipeBaton']/ingredient[@name='resourceLeather']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnBatonT2StunBaton']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']/ingredient[@name='resourceMechanicalParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']/ingredient[@name='resourceLeather']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT3SteelKnuckles']/ingredient[@name='resourceDuctTape']/@count">1</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedBlueberry1']/ingredient[@name='foodCropBlueberries']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedBlueberry1']/ingredient[@name='foodCropBlueberries']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedChrysanthemum1']/ingredient[@name='resourceCropChrysanthemumPlant']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedChrysanthemum1']/ingredient[@name='resourceCropChrysanthemumPlant']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedCoffee1']/ingredient[@name='resourceCropCoffeeBeans']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedCoffee1']/ingredient[@name='resourceCropCoffeeBeans']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedCotton1']/ingredient[@name='resourceCropCottonPlant']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedCotton1']/ingredient[@name='resourceCropCottonPlant']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedGoldenrod1']/ingredient[@name='resourceCropGoldenrodPlant']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedGoldenrod1']/ingredient[@name='resourceCropGoldenrodPlant']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedGraceCorn1']/ingredient[@name='foodCropGraceCorn']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedGraceCorn1']/ingredient[@name='foodCropGraceCorn']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedHop1']/ingredient[@name='resourceCropHopsFlower']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedHop1']/ingredient[@name='resourceCropHopsFlower']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='foodCropMushrooms']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='resourceClayLump']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='foodCropMushrooms']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedPotato1']/ingredient[@name='foodCropPotato']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedPotato1']/ingredient[@name='foodCropPotato']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedYucca1']/ingredient[@name='foodCropYuccaFruit']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedYucca1']/ingredient[@name='foodCropYuccaFruit']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	<set xpath="/recipes/recipe[@name='plantedPumpkin1']/ingredient[@name='foodCropPumpkin']/@count">1</set>
+	<insertAfter xpath="/recipes/recipe[@name='plantedPumpkin1']/ingredient[@name='foodCropPumpkin']">
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+	</insertAfter>
+	
+	
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='resourceBuckshot']/@count">6</set>
+	<set xpath="/recipes/recipe[@name='resourceBuckshot']/ingredient[@name='unit_lead']/@count">45</set>
+	
+	<set xpath="/recipes/recipe[@name='resourceBulletTip']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='resourceBulletTip']/ingredient[@name='unit_lead']/@count">15</set>
+	
+	<insertAfter xpath="/recipes/recipe[@name='resourceBulletTip']">
+	<recipe name="resourceSteelTip" count="1" material_based="true" craft_area="forge" is_trackable="false" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_iron" count="10"/>
+	<ingredient name="unit_lead" count="10"/>
+	<ingredient name="unit_clay" count="1"/>
+	<effect_group>
+		<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="unit_clay,unit_lead,unit_iron"/>
+	</effect_group>
+	</recipe>
+	</insertAfter>
+	
+	
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='resourceBulletCasing']/ingredient[@name='unit_brass']/@count">10</set>
+	
+	
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='resourceForgedIron']/ingredient[@name='unit_clay']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='resourceForgedSteel']/ingredient[@name='unit_clay']/@count">6</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='resourcePaper'][@craft_area='chemistryStation']/@count">100</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceForgedIron']/@name">resourceElectricParts</set>
+	<insertAfter xpath="/recipes/recipe[@name='resourceRepairKit']/ingredient[@name='resourceDuctTape']">
+	<ingredient name="resourceSewingKit" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+	</insertAfter>
+	
+	
+	<!-- -->
+	<insertBefore xpath="/recipes/recipe[@name='resourceArmorCraftingKit']">
+	
+	<recipe name="resourceSewingKit" count="10" craft_area="workbench" tags="perkAdvancedEngineering">
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceCloth" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceForgedSteel" count="1"/>
+	<ingredient name="resourceAcid" count="1"/>
+	</recipe>
+
+	</insertBefore>
+	
+	<!-- -->
+	<insertBefore xpath="/recipes/recipe[@name='toolAnvil']">
+	
+	<recipe name="toolAnvilEx" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceCement" count="50"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceNail" count="20"/>
+	</recipe>
+	
+	<recipe name="toolBellowsEx" count="1" tags="learnable,packMuleCrafting">
+	<ingredient name="resourceForgedSteel" count="40"/>
+	<ingredient name="resourceLeather" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceNail" count="100"/>
+	</recipe>
+
+	</insertBefore>
+
+	<set xpath="/recipes/recipe[@name='toolForgeCrucible']/ingredient[@name='resourceMechanicalParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='toolForgeCrucible']/ingredient[@name='resourceMechanicalParts']/@name">resourceLegendaryParts</set>
+	
+	
+	
+	<set xpath="/recipes/recipe[@name='cntDewCollector']/ingredient[@name='resourceScrapPolymers']/@count">100</set>
+	<append xpath="/recipes/recipe[@name='cntDewCollector']">
+	<ingredient name="resourceCloth" count="100"/>
+	</append>
+	
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceScrapPolymers']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceCoal']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceCrushedSand']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceCropCottonPlant']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceCropCottonPlant']/@name">resourcePotassiumNitratePowder</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceMetalPipe']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='toolDewFilter']/ingredient[@name='resourceMetalPipe']/@name">resourceLegendaryParts</set>
+	
+	<set xpath="/recipes/recipe[@name='modArmorCigar']/ingredient[@name='resourceYuccaFibers']/@count">100</set>
+	<set xpath="/recipes/recipe[@name='modArmorCigar']/ingredient[@name='resourcePaper']/@count">100</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='modArmorWaterPurifier']/ingredient[@name='resourceCoal']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='modArmorWaterPurifier']/ingredient[@name='resourceCoal']/@name">toolDewFilter</set>
+	
+	
+	<!-- Parts requirment -->
+	
+	<set xpath="/recipes/recipe[@name='autoTurret']/ingredient[@name='gunHandgunT1PistolParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='autoTurret']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceForgedSteel,resourceOil,resourceScrapPolymers</set>
+	
+	<set xpath="/recipes/recipe[@name='gunHandgunT1Pistol']/ingredient[@name='gunHandgunT1PistolParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT1Pistol']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunHandgunT1Pistol']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunHandgunT1PistolParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/ingredient[@name='gunHandgunT1PistolParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunHandgunT2Magnum44']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="3,8" operation="base_add" value="0,0" tags="gunHandgunT1PistolParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/ingredient[@name='gunHandgunT1PistolParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunHandgunT3DesertVulture']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunHandgunT1PistolParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/ingredient[@name='gunHandgunT1PistolParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunHandgunT3SMG5']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunHandgunT1PistolParts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunShotgunT1DoubleBarrel']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunShotgunT1DoubleBarrelParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunShotgunT2PumpShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="3,8" operation="base_add" value="0,0" tags="gunShotgunT1DoubleBarrelParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunShotgunT3AutoShotgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunShotgunT1DoubleBarrelParts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunRifleT1HuntingRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunRifleT1HuntingRifleParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunRifleT2LeverActionRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="3,8" operation="base_add" value="0,0" tags="gunRifleT1HuntingRifleParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/ingredient[@name='gunRifleT1HuntingRifleParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunRifleT3SniperRifle']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunRifleT1HuntingRifleParts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunMGT1AK47']/ingredient[@name='gunMGT1AK47Parts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunMGT1AK47']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunMGT1AK47']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunMGT1AK47Parts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/ingredient[@name='gunMGT1AK47Parts']/@count">2</set>
+	<set xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunMGT2TacticalAR']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="3,8" operation="base_add" value="0,0" tags="gunMGT1AK47Parts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/ingredient[@name='gunMGT1AK47Parts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunMGT3M60']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunMGT3M60']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunMGT1AK47Parts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunBowT1WoodenBow']/ingredient[@name='gunBowT1WoodenBowParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBowT1WoodenBow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunBowT1WoodenBow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunBowT1WoodenBowParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/ingredient[@name='gunBowT1WoodenBowParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunBowT3CompoundBow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunBowT1WoodenBowParts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']/ingredient[@name='gunBowT1WoodenBowParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunBowT1IronCrossbow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="4,8" operation="base_add" value="0,0" tags="gunBowT1WoodenBowParts"/>
+	</insertAfter>
+	
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/ingredient[@name='gunBowT1WoodenBowParts']/@count">3</set>
+	<set xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceDuctTape</set>
+	<insertAfter xpath="/recipes/recipe[@name='gunBowT3CompoundCrossbow']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']">
+	<passive_effect name="CraftingIngredientCount" level="2,8" operation="base_add" value="0,0" tags="gunBowT1WoodenBowParts"/>
+	</insertAfter>
+	
+	
+	<set xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/ingredient[@name='gunBotRoboticsParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBotT1JunkSledge']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceForgedIron,resourceDuctTape,resourceSpring</set>
+	
+	<set xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/ingredient[@name='gunBotRoboticsParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBotT2JunkTurret']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceForgedSteel,resourceDuctTape,resourceSpring</set>
+	
+	<set xpath="/recipes/recipe[@name='gunBotT3JunkDrone']/ingredient[@name='gunBotRoboticsParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='gunBotT3JunkDrone']/effect_group/passive_effect[@name='CraftingIngredientCount'][@value='1,5']/@tags">resourceForgedSteel,resourceDuctTape,resourceElectricParts</set>
+	
+	<set xpath="/recipes/recipe[@name='shotgunTurret']/ingredient[@name='gunShotgunT1DoubleBarrelParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='shotgunTurret']/effect_group/passive_effect[@name='CraftingIngredientCount']/@tags">resourceForgedSteel,resourceOil,resourceScrapPolymers</set>
+	
+	
+	<set xpath="/recipes/recipe[@name='meleeWpnClubT3SteelClub']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeToolPickT3Auger']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel</set>
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT3Chainsaw']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel</set>
+	<set xpath="/recipes/recipe[@name='meleeToolAxeT2SteelAxe']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSpearT3SteelSpear']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnBladeT3Machete']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeToolPickT2SteelPickaxe']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeToolShovelT2SteelShovel']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnSledgeT3SteelSledgehammer']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceDuctTape</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedIron,resourceDuctTape,resourceElectricParts</set>
+	<set xpath="/recipes/recipe[@name='meleeToolSalvageT2Ratchet']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@level='2,6']/@tags">resourceForgedSteel,resourceMechanicalParts,resourceSpring</set>
+	<set xpath="/recipes/recipe[@name='meleeToolSalvageT3ImpactDriver']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceMechanicalParts,resourceSpring</set>
+	<set xpath="/recipes/recipe[@name='meleeWpnKnucklesT3SteelKnuckles']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@tags">resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape</set>
+	
+	
+	
+	<remove xpath="/recipes/recipe[@name='meleeToolRepairT3Nailgun']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeWpnClubT1BaseballBat']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolRepairT1ClawHammer']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolAxeT1IronFireaxe']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeWpnSpearT1IronSpear']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeWpnBladeT1HuntingKnife']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolPickT1IronPickaxe']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolShovelT1IronShovel']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeWpnSledgeT1IronSledgehammer']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeToolSalvageT2Ratchet']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	<remove xpath="/recipes/recipe[@name='meleeWpnKnucklesT1IronKnuckles']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']"/>
+	
+	<set xpath="/recipes/recipe[@name='modArmorQuadStoragePocket']/ingredient[@name='resourceLegendaryParts']/@count">30</set>
+	<set xpath="/recipes/recipe[@name='modArmorQuadStoragePocket']/ingredient[@name='resourceLegendaryParts']/@name">resourceMechanicalParts</set>
+	
+	<!-- -->
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='1,5']/@value">1,7</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='.5,2.5']/@value">.5,3.5</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='2,10']/@value">2,14</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='5,25']/@value">5,35</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='10,50']/@value">10,70</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6'][@value='20,100']/@value">20,140</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,6']/@level">2,8</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,3,4,5,6']/@value">5,10,15,20,25,30,35</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='2,3,4,5,6']/@level">2,3,4,5,6,7,8</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='3,4,5,6']/@value">5,10,15,20,25,30</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='3,4,5,6']/@level">3,4,5,6,7,8</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='4,5,6']/@value">5,10,15,20,25</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='4,5,6']/@level">4,5,6,7,8</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='5,6'][@value='1,2']/@value">1,2,3,4</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='5,6'][@value='10,25']/@value">5,10,20,30</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='5,6']/@level">5,6,7,8</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='6']/@value">0,1,10</set>
+	<set xpath="/recipes/recipe/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='6']/@level">6,7,8</set>
+	<!-- -->
+	<set xpath="/recipes/recipe[@name='carBattery']/ingredient[@name='resourceLegendaryParts']/@count">1</set>
+	<set xpath="/recipes/recipe[@name='carBattery']/ingredient[@name='resourceLegendaryParts']/@name">resourceMechanicalParts</set>
+	<set xpath="/recipes/recipe[@name='carBattery']/effect_group/passive_effect[@name='CraftingIngredientCount'][@tags='resourceLegendaryParts']/@tags">resourceMechanicalParts</set>
+	<set xpath="/recipes/recipe[@name='carBattery']/effect_group/passive_effect[@name='CraftingIngredientCount'][@level='6,7,8']/@value">5,15,30</set>
+	<!-- -->
+</configs>

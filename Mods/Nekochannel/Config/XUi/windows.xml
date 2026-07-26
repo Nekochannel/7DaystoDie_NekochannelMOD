@@ -1,0 +1,36 @@
+<configs>
+    <!-- backpack size -->
+    <set xpath="/windows/window[@name='windowBackpack']/@width">604</set>
+    <set xpath="/windows/window[@name='windowBackpack']/@height">373</set>
+    
+    <!-- panel size -->
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/@height">330</set>
+    
+    <!--  rows, heights -->
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">8</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">12</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_height">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cell_width">50</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">601</set>
+    <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">403</set>
+	
+	<!-- dropped backpack -->
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">12</set>
+    <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">12</set>
+
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/backpack_item_stack"></remove>
+	
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']">
+       <BP_backpack_item_stack name="0"/>
+	</append>
+	
+	
+	<set xpath="/windows/window[@name='windowToolsForge']/rect/grid/@cols">5</set>
+	<set xpath="/windows/window[@name='windowToolsForge']/rect/grid/@required_tools">toolBellows,toolAnvil,toolForgeCrucible,toolBellowsEx,toolAnvilEx</set>
+	
+	
+	<set xpath="/windows/window[@name='windowDewCollector']/rect[@name='content']/@pos">3,-49</set>
+	
+	<set xpath="/windows/window[@name='windowDewCollector']/rect/grid/@depth">12</set>
+	<set xpath="/windows/window[@name='windowDewCollector']/rect/grid/@cols">3</set>
+</configs>

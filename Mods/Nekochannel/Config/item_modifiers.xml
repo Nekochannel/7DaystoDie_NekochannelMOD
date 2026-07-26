@@ -1,0 +1,94 @@
+<configs>
+    <!--  -->
+    <set xpath="/item_modifiers/item_modifier[@name='modGeneralMaster']/property[@name='EconomicValue']/@value">1000</set>
+    <!--  -->
+    
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">3</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">6</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">9</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorQuadStoragePocket']/effect_group/passive_effect[@name='CarryCapacity']/@value">12</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">3</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">6</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">9</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorQuadStoragePocket']/effect_group/display_value[@name='dCarryCapacity']/@value">12</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']/effect_group/passive_effect[@name='ProjectileVelocity']/@value">.25</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']/effect_group/passive_effect[@name='SpreadMultiplierAiming']/@value">-.2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']/effect_group/passive_effect[@name='SpreadMultiplierHip']/@value">-.2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modGunMeleeTheHunter']/effect_group/passive_effect[@name='EntityDamage']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeErgonomicGrip']/effect_group/passive_effect[@name='StaminaLoss']/@value">-.15</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeErgonomicGrip']/effect_group/passive_effect[@name='WeaponHandling']/@value">.25</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeFortifyingGrip']/effect_group/requirement[@name='StatComparePercCurrentToModMax']/@value">.99</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']/effect_group/passive_effect[@name='BlockDamage']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeGraveDigger']/effect_group/passive_effect[@name='DamageModifier']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeBunkerBuster']/effect_group/passive_effect[@name='DamageModifier']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeIronBreaker']/effect_group/passive_effect[@name='DamageModifier']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeWoodSplitter']/effect_group/passive_effect[@name='DamageModifier']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']/effect_group/passive_effect[@name='DegradationPerUse']/@value">-.5</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/@blocked_tags">noMods</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.1</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.1</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/display_value/@value">.1</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/@blocked_tags">noMods</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/display_value/@value">.2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">4</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']/effect_group/passive_effect[@name='NoiseMultiplier']/@value">-.07</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']/effect_group/display_value/@value">-.08</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']/effect_group/passive_effect[@name='NoiseMultiplier']/@value">-.14</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']/effect_group/display_value/@value">-.15</set>
+	<!--  -->
+	
+	<insertAfter xpath="/item_modifiers/item_modifier[@name='modArmorWaterPurifier']/property[@name='Extends']">
+	<property name="EconomicValue" value="50000"/>
+	</insertAfter>
+	
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStealthBoots']/effect_group/passive_effect[@name='NoiseMultiplier']/@value">-.15</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStealthBoots']/effect_group/display_value[@name='dNoiseMultiplier']/@value">-.15</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorStrength']/effect_group/passive_effect[@name='AttributeLevel']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorFortitude']/effect_group/passive_effect[@name='AttributeLevel']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorAgility']/effect_group/passive_effect[@name='AttributeLevel']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorIntellect']/effect_group/passive_effect[@name='AttributeLevel']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPerception']/effect_group/passive_effect[@name='AttributeLevel']/@value">2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTreasureHunter'][@modifier_tags='boostTreasure']/@modifier_tags">expBoost</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTreasureHunter']/effect_group/passive_effect[@name='LootStage']/@value">10</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTreasureHunter']/effect_group/passive_effect[@name='PlayerExpGain']/@value">.2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorTreasureHunter']/effect_group/display_value[@name='dPlayerExpGain']/@value">.2</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']/effect_group/passive_effect[@name='VehicleMotorTorquePer']/@value">.25</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']/effect_group/passive_effect[@name='VehicleVelocityMaxPer']/@value">.33</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modVehiclePlow']/effect_group/passive_effect[@name='VehicleEntityDamage']/@value">1</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modVehiclePlow']/effect_group/passive_effect[@name='VehicleStrongSelfDamage']/@value">.22</set>
+	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modVehicleArmor']/effect_group/passive_effect[@name='VehicleEntityDamage']/@value">.8</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modVehicleArmor']/effect_group/passive_effect[@name='VehicleStrongSelfDamage']/@value">.25</set>
+	
+	
+	<set xpath="/item_modifiers/item_modifier/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add']/@operation">base_add</set>
+</configs>

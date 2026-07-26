@@ -1,0 +1,14 @@
+<configs>
+
+
+<!-- -->
+
+<set xpath="/events/event[@name='christmas']/@start_date">12/01</set>
+<set xpath="/events/event[@name='christmas']/@end_date">12/26</set>
+<set xpath="/events/event[@name='halloween']/@start_date">10/01</set>
+<set xpath="/events/event[@name='halloween']/@duration">31</set>
+
+<!-- -->
+
+
+</configs>

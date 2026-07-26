@@ -1,0 +1,14 @@
+<configs>
+	<!-- -->
+	<set xpath="/qualityinfo/quality[@key='0']/@color">808080</set>
+	<set xpath="/qualityinfo/quality[@key='1']/@color">9C8867</set>
+	<set xpath="/qualityinfo/quality[@key='2']/@color">CF7F29</set>
+	<set xpath="/qualityinfo/quality[@key='3']/@color">A2A41B</set>
+	<set xpath="/qualityinfo/quality[@key='4']/@color">42C234</set>
+	<set xpath="/qualityinfo/quality[@key='5']/@color">315DCE</set>
+	<set xpath="/qualityinfo/quality[@key='6']/@color">A42ACC</set>
+	<append xpath="/qualityinfo">
+	<quality key="7" color="A42ACC"/>
+	<quality key="8" color="FF0000"/>
+	</append>
+</configs>

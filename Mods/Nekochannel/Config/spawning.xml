@@ -1,0 +1,93 @@
+<configs>
+	<!-- -->
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz01']/@maxcount">5</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz01']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz01']/@maxcount">7</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz01']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz02']/@maxcount">5</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz02']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz02']/@maxcount">7</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz02']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz03']/@maxcount">5</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz03']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz03']/@maxcount">7</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz03']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='aa01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='aa01']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='na01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='na01']/@respawndelay">0.01</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='ne01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='ne01']/@respawndelay">0.01</set>
+	<insertAfter xpath="/spawning/biome[@name='pine_forest']/spawn[@id='ne01']">
+	<spawn id="ae01" maxcount="2" respawndelay="0.1" time="Any" entitygroup="WildEnemyAnimals" />
+	</insertAfter>
+
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz04']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz01']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz02']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz02']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz03']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz03']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='aa01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='na01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='ae01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='ne01']/@maxcount">1</set>
+	<insertAfter xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='ne01']">
+	<spawn id="ae02" maxcount="2" respawndelay="0.1" time="Any" entitygroup="WildEnemyAnimalsBurn" />
+	</insertAfter>
+
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz01']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz04']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz02']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz02']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz03']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz03']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='aa01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='ae01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='ne01']/@maxcount">1</set>
+	<insertAfter xpath="/spawning/biome[@name='desert']/spawn[@id='ne01']">
+	<spawn id="ae02" maxcount="2" respawndelay="0.07" time="Any" entitygroup="WildEnemyAnimalsDesert" />
+	</insertAfter>
+	
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz01']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz04']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz04']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz01']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz02']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz02']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz03']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz03']/@maxcount">2</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='aa01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='na01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='ae01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='ne01']/@maxcount">1</set>
+	<insertAfter xpath="/spawning/biome[@name='snow']/spawn[@id='ne01']">
+	<spawn id="ae02" maxcount="4" respawndelay="0.05" time="Any" entitygroup="WildEnemyAnimalsSnow" />
+	</insertAfter>
+	
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz01']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz02']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz02']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz03']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz03']/@maxcount">4</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='na01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='ae01']/@maxcount">1</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='ne01']/@maxcount">1</set>
+	<insertAfter xpath="/spawning/biome[@name='wasteland']/spawn[@id='ne01']">
+	<spawn id="ae02" maxcount="4" respawndelay="0.01" time="Any" entitygroup="WildEnemyAnimalsWaste" />
+	</insertAfter>
+	
+
+	<set xpath="/spawning/entityspawner[@dynamic='true']/day/property[@name='ResetToday']/@value">true</set>
+	<set xpath="/spawning/entityspawner[@dynamic='true']/day/property[@name='TotalAlive']/@value">4</set>
+	<set xpath="/spawning/entityspawner[@dynamic='true']/day/property[@name='TotalPerWave']/@value">1</set>
+	<set xpath="/spawning/entityspawner[@dynamic='true']/day/property[@name='DelayBetweenSpawns']/@value">0.01</set>
+	<!-- -->
+
+</configs>

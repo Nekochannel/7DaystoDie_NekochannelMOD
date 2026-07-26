@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="EnableHPbar" />
+    <DisplayName value="Zombie HP Bar (Slim)" />
+    <Version value="1.0" />
+    <Description value="This mod makes the HP bar visible." />
+    <Author value="elkocuro" />
+    <Website value="" />
+</xml>
