@@ -1730,7 +1730,7 @@
 	
 	<append xpath="/buffs/buff[@name='buffCampfireAOE']">
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Stamina" operation="add" value="25"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Stamina" operation="add" value="40"/>
 		</effect_group>
 	</append>
 	
