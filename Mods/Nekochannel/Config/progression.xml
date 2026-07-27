@@ -3,7 +3,7 @@
 	<set xpath="/progression/level/@exp_to_level">5000</set>
 	<set xpath="/progression/level/@experience_multiplier">1.06</set>
 	<set xpath="/progression/level/@skill_points_per_level">1</set>
-	<set xpath="/progression/level/@clamp_exp_cost_at_level">75</set>
+	<set xpath="/progression/level/@clamp_exp_cost_at_level">80</set>
 	<!--  -->
 	<set xpath="/progression/attributes/attribute[@name='attPerception']/effect_group/passive_effect[@name='DismemberChance']/@value">.03,.3</set>
 	<set xpath="/progression/attributes/attribute[@name='attStrength']/effect_group/passive_effect[@name='DismemberChance']/@value">.03,.3</set>
