@@ -146,7 +146,10 @@
 	
 	<!-- trader info -->
 	
+
 	<set xpath="/traders/trader_info/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='3']/@reset_interval">-1</set>
+	<set xpath="/traders/trader_info[@id='5']/@reset_interval">-1</set>
 	<set xpath="/traders/trader_info/@open_time">02:00</set>
 	<set xpath="/traders/trader_info/@close_time">23:50</set>
 
