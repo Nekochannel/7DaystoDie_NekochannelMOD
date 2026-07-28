@@ -129,8 +129,8 @@
 		<effect_group>
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="-8.5"/>
 			<passive_effect name="Mobility" operation="base_add" value=".1"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".07"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".07"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".05"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".05"/>
 		</effect_group>
 	</buff>
 
@@ -184,7 +184,7 @@
 
 		<effect_group>
 			<passive_effect name="EntityDamage" operation="perc_add" value="-.1"/>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="-7.5"/>
+			<passive_effect name="StaminaChangeOT" operation="base_add" value="-7"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.1"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.02"/>
 			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".15"/>
@@ -214,7 +214,7 @@
 
 		<effect_group>
 			<passive_effect name="EntityDamage" operation="perc_add" value="-.2"/>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="-7"/>
+			<passive_effect name="StaminaChangeOT" operation="base_add" value="-4"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.2"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.05"/>
 			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".2"/>
@@ -248,8 +248,8 @@
 			<passive_effect name="StaminaLoss" operation="perc_add" value="-.2"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.35"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.35"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".3"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".3"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".25"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".25"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1" tags="secondary"/>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.7" fade="1" effect_name="Greyscale"/>
