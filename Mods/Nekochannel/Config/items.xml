@@ -4524,8 +4524,8 @@
 	<append xpath="/items/item[@name='noteDuke01']/effect_group">
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="1000"/>
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="1000"/>
-	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="40"/>
-	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="40"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="100"/>
+	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
 	</append>
 	
 	
