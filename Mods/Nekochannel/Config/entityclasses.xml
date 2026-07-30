@@ -97,8 +97,8 @@
 		<passive_effect name="FoodLossPerHealthPointGained" operation="base_set" value="0.3"/>
 	</insertBefore>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerHealthPointGained']/@value">0.12</set> <!-- 0.06 -->
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">0.018</set> <!-- 0.00453 -->
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='FoodLossPerStaminaPointGained']/@value">0.018</set> <!-- 0.00408 -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">0.01</set> <!-- 0.00453 -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group[@name='food/water balancing']/passive_effect[@name='FoodLossPerStaminaPointGained']/@value">0.014</set> <!-- 0.00408 -->
 	<!-- -->
 	<!-- -->
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='StaminaLoss'][@operation='base_set'][@tags='jumping']/@value">20</set>
