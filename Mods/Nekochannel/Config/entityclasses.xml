@@ -73,6 +73,7 @@
 	
 	
 	<!-- -->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='Buffs']/@value">buffStatusCheck01,buffStatusCheck02,buffStatusCheck03</set>
 	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">meleeToolTorch,foodCanCatfood=3,drinkJarPureMineralWater,medicalFirstAidBandage=3,drugCaffeines,oldCash=50,noteDuke01,vehicleTruck4x4Placeable</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='HealthMax'][@value='100']/@value">200</set>
