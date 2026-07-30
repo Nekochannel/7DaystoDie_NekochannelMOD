@@ -23,6 +23,34 @@
 	
 	
 	<!-- buffStatusCheck -->
+	<insertAfter xpath="/buffs/buff[@name='buffStatusCheck02']">
+	<buff name="buffStatusCheck03" hidden="true" remove_on_death="false">
+		<stack_type value="ignore"/>
+		<update_rate value="5"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugPainkillers"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugVitamins"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSteroids"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRecog"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugFortBites"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffFoodStaminaBonus"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasAwesomeSauce"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasLearningElixir"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugAtomJunkies"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugCovertCats"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugEyeKandy"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHackers"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHealthBar"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugJailBreakers"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugNerdTats"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugOhShitzDrops"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRockBusters"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSkullCrushers"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSugarButts"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPumpkinCheesecake"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffMegaCrush"/>
+	</buff>
+    </insertAfter>
+    
     
     <set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@cvar='$maxBleedCounter'][@value='7']/@value">40</set>
     <set xpath="/buffs/buff[@name='buffStatusCheck01']/effect_group/triggered_effect[@cvar='$maxBleedCounter'][@value='6']/@value">30</set>
@@ -83,11 +111,6 @@
 			
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffProcessConsumables"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInfectionAddCure"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugPainkillers"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugVitamins"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSteroids"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRecog"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugFortBites"/>
     </effect_group>
     </append>
     
