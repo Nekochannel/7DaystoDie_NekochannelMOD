@@ -453,7 +453,7 @@
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@value">.1,.7</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@tier">2,8</set>
 
-	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">2</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">3</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='BlockDamage']/@value">0</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss']/@value">36</set>
 	<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']">
@@ -493,7 +493,7 @@
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@value">.15,1.05</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@tier">2,8</set>
 	
-	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">3</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">4</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='BlockDamage']/@value">0</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss']/@value">48</set>
 	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']">
@@ -533,7 +533,7 @@
 	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@value">.15,1.05</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group/passive_effect[@name='BlockDamage'][@tier='2,6']/@tier">2,8</set>
 	
-	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">3</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='EntityDamage'][@operation='perc_add']/@value">4</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='BlockDamage']/@value">0</set>
 	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/effect_group[@name='Power Attack']/passive_effect[@name='StaminaLoss']/@value">48</set>
 	<append xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']">
@@ -602,7 +602,7 @@
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@value">1,1,2,2,3,3,4,4</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@tier">1,2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='ModPowerBonus'][@operation='perc_add']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">16</set>
+	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">17</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@value">0.1,0.2,0.3,0.4,0.5,0.6,0.7</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@tier">2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnClubT0WoodenClub']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">11</set>
@@ -723,7 +723,7 @@
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@value">1,1,2,2,3,3,4,4</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@tier">1,2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='ModPowerBonus'][@operation='perc_add']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">14</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">15</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@value">0.1,0.2,0.3,0.4,0.5,0.8,1.2</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@tier">2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">12</set>
@@ -754,7 +754,7 @@
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@value">1,2,2,3,3,4,4,4</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@tier">1,2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='ModPowerBonus'][@operation='perc_add']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">25</set>
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">26</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@value">0.1,0.2,0.3,0.4,0.6,0.9,1.4</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@tier">2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">18</set>
@@ -806,7 +806,7 @@
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@value">1,1,2,2,3,3,4,4</set>
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='ModSlots'][@operation='base_set']/@tier">1,2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='ModPowerBonus'][@operation='perc_add']/@value">.2</set>
-	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">10</set>
+	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">11</set>
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@value">0.1,0.2,0.3,0.4,0.5,0.6,0.7</set>
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='EntityDamage'][@tier='2,6']/@tier">2,3,4,5,6,7,8</set>
 	<set xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">5</set>
@@ -3128,10 +3128,10 @@
 	<!--  -->
 	
 	<set xpath="/items/item[@name='foodCanMiso']/property[@name='EconomicValue']/@value">45</set>
-	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">10</set>
+	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">7</set>
 	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='foodHealthAmount'][@operation='add']/@value">4</set>
 	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='foodHealthFarmer'][@operation='set']/@value">4</set>
-	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">5</set>
+	<set xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">10</set>
 	<insertAfter xpath="/items/item[@name='foodCanMiso']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']">
 
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="65"/>
@@ -3142,10 +3142,10 @@
 	<!--  -->
 	
 	<set xpath="/items/item[@name='foodCanPeas']/property[@name='EconomicValue']/@value">45</set>
-	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">10</set>
+	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">7</set>
 	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='foodHealthAmount'][@operation='add']/@value">4</set>
 	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='foodHealthFarmer'][@operation='set']/@value">4</set>
-	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">5</set>
+	<set xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">10</set>
 	<insertAfter xpath="/items/item[@name='foodCanPeas']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']">
 
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="65"/>
@@ -3156,10 +3156,10 @@
 	<!--  -->
 	
 	<set xpath="/items/item[@name='foodCanPears']/property[@name='EconomicValue']/@value">45</set>
-	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">10</set>
+	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">7</set>
 	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='foodHealthAmount'][@operation='add']/@value">4</set>
 	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='foodHealthFarmer'][@operation='set']/@value">4</set>
-	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">5</set>
+	<set xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">10</set>
 	<insertAfter xpath="/items/item[@name='foodCanPears']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']">
 
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="65"/>
@@ -3170,10 +3170,10 @@
 	<!--  -->
 	
 	<set xpath="/items/item[@name='foodCanSoup']/property[@name='EconomicValue']/@value">45</set>
-	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">10</set>
+	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">7</set>
 	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='foodHealthAmount'][@operation='add']/@value">4</set>
 	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='foodHealthFarmer'][@operation='set']/@value">4</set>
-	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">5</set>
+	<set xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">10</set>
 	<insertAfter xpath="/items/item[@name='foodCanSoup']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']">
 
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="65"/>
@@ -3184,10 +3184,10 @@
 	<!--  -->
 	
 	<set xpath="/items/item[@name='foodCanStock']/property[@name='EconomicValue']/@value">45</set>
-	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">10</set>
+	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']/@value">7</set>
 	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='foodHealthAmount'][@operation='add']/@value">4</set>
 	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='foodHealthFarmer'][@operation='set']/@value">4</set>
-	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">5</set>
+	<set xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='$waterAmountAdd'][@operation='add']/@value">10</set>
 	<insertAfter xpath="/items/item[@name='foodCanStock']/effect_group/triggered_effect[@cvar='$foodAmountAdd'][@operation='add']">
 
 	<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Stamina" operation="add" value="65"/>
@@ -3238,6 +3238,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
 	</item>
+	
 	
 	<!-- 鶏味噌照り焼き -->
 	<item name="foodMisoChicken">
@@ -4192,11 +4193,11 @@
 	
 	<set xpath="/items/item/effect_group/passive_effect[@tier='1,2,3,4,5,6']/@tier">1,2,3,4,5,6,7,8</set>
 	<set xpath="/items/item/effect_group/display_value[@tier='1,2,3,4,5,6']/@tier">1,2,3,4,5,6,7,8</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='8,12.3']/@value">2,10</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='13,17.3']/@value">8,16</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='18,21']/@value">12,20</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='8,12.3']/@value">7,12</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='13,17.3']/@value">12,17</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='18,21']/@value">15,20</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@tier='1,6']/@tier">1,8</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.041']/@value">0.041</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.041']/@value">0.044</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.043,0.053']/@value">0.061</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.061,0.076']/@value">0.12</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@tier='1,6']/@tier">1,8</set>
@@ -5073,7 +5074,12 @@
 	<!--  -->
 	<!--  -->
 	<!--  -->
-	<!--  -->
+	
+	<!-- Food Stamina Recovery -->
+	<set xpath="/items/item/effect_group[@tiered='false']/triggered_effect[@action='ModifyStats'][@stat='Stamina']/@action">ModifyCVar</set>
+	<setattribute xpath="/items/item/effect_group[@tiered='false']/triggered_effect[@action='ModifyCVar'][@stat='Stamina']" name="cvar">.foodStamina</setattribute>
+	<removeattribute xpath="/items/item/effect_group[@tiered='false']/triggered_effect[@action='ModifyCVar'][@stat='Stamina']/@stat"/>
+	
 	<!--  -->
 	<!--  -->
 	<!--  -->
