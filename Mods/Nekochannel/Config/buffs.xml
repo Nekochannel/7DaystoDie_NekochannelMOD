@@ -32,7 +32,6 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSteroids"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRecog"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugFortBites"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffFoodStaminaBonus"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasAwesomeSauce"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasLearningElixir"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugAtomJunkies"/>
@@ -48,6 +47,14 @@
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSugarButts"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPumpkinCheesecake"/>
 			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffMegaCrush"/>
+			
+			
+			<effect_group>
+				<requirement name="CVarCompare" cvar=".foodStamina" operation="GT" value="0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="add" value="@.foodStamina"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".foodStamina" operation="set" value="0"/>
+			</effect_group>
+			
 	</buff>
     </insertAfter>
     
@@ -64,8 +71,11 @@
  		   <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffNovisCoat">
 				<requirement name="PlayerLevel" operation="LTE" value="10"/>
 				<requirement name="PlayerLevel" operation="GT" value="5"/>
+				<requirement name="!HasBuff" buff="buffNovisCoat"/>
 			</triggered_effect>
-			
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffStatusCheck03">
+				<requirement name="!HasBuff" buff="buffStatusCheck03"/>
+			</triggered_effect>
 			
     		<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffStatusLowStamina00">
     			<requirement name="StatComparePercCurrentToMax" stat="Stamina" operation="GT" value="0.9"/>
@@ -134,6 +144,8 @@
 			<passive_effect name="Mobility" operation="base_add" value=".25"/> <!-- 0.7-1 -->
 			<passive_effect name="JumpStrength" operation="perc_add" value="0.05"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".2"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".25"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".25"/>
 		</effect_group>
 	</buff>
 	
@@ -158,8 +170,8 @@
 		<effect_group>
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="-8.5"/>
 			<passive_effect name="Mobility" operation="base_add" value=".1"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".05"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".05"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".4"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".4"/>
 		</effect_group>
 	</buff>
 
@@ -186,8 +198,8 @@
 		<effect_group>
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="-8"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.01"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".1"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".1"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".5"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".5"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05"/>
 		</effect_group>
 	</buff>
@@ -216,8 +228,8 @@
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="-7"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.1"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.02"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".15"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".15"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".6"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".6"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.1"/>
 		</effect_group>
 	</buff>
@@ -246,8 +258,8 @@
 			<passive_effect name="StaminaChangeOT" operation="base_add" value="-4"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.2"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.05"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".2"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".2"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".7"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".7"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.2"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1" tags="secondary"/>
 		</effect_group>
@@ -277,8 +289,8 @@
 			<passive_effect name="StaminaLoss" operation="perc_add" value="-.2"/>
 			<passive_effect name="Mobility" operation="base_add" value="-.35"/>
 			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.35"/>
-			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".25"/>
-			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".25"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value=".8"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value=".8"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".1" tags="secondary"/>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="0.7" fade="1" effect_name="Greyscale"/>
@@ -1762,13 +1774,13 @@
 
 	<!-- buffCampfireAOE -->
 	
-	<set xpath="/buffs/buff[@name='buffCampfireAOE']/duration/@value">5</set>
+	<set xpath="/buffs/buff[@name='buffCampfireAOE']/duration/@value">1</set>
 	
 	<set xpath="/buffs/buff[@name='buffCampfireAOE']/effect_group/triggered_effect/@trigger">onSelfBuffFinish</set>
 	
 	<append xpath="/buffs/buff[@name='buffCampfireAOE']">
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Stamina" operation="add" value="50"/>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Stamina" operation="add" value="10"/>
 		</effect_group>
 	</append>
 	
@@ -1885,4 +1897,12 @@
 	
 	<set xpath="/buffs/buff/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_subtract']/@operation">base_subtract</set>
 	<set xpath="/buffs/buff/effect_group/passive_effect[@name='StaminaChangeOT'][@operation='perc_add']/@operation">base_add</set>
+	
+	
+	<!-- infected -->
+	
+	<set xpath="/buffs/buff/effect_group/triggered_effect[@cvar='$infectionMaxDuration']/@value">201600</set>
+	<set xpath="/buffs/buff/effect_group/triggered_effect[@cvar='$infectionStage2Duration']/@value">30</set>
+	<set xpath="/buffs/buff/effect_group/triggered_effect[@cvar='$infectionStage3Duration']/@value">60</set>
+	<removeattribute xpath="/buffs/buff[@name='buffInfection01Untreated']/@tooltip_key"/>
 </configs>

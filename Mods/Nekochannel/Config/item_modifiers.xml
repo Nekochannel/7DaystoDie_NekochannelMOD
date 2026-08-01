@@ -36,19 +36,28 @@
 	<!--  -->
 	<set xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']/effect_group/passive_effect[@name='DegradationPerUse']/@value">-.5</set>
 	<!--  -->
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT1']/effect_group/passive_effect[@name='HypothermalResist']/@value">2.5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT1']/effect_group/passive_effect[@name='HyperthermalResist']/@value">2.5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT2']/effect_group/passive_effect[@name='HypothermalResist']/@value">5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT2']/effect_group/passive_effect[@name='HyperthermalResist']/@value">5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT3']/effect_group/passive_effect[@name='HypothermalResist']/@value">7.5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLinerT3']/effect_group/passive_effect[@name='HyperthermalResist']/@value">7.5</set>
+	<!--  -->
 	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/@blocked_tags">noMods</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.1</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.1</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/display_value/@value">.1</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.25</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.25</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']/effect_group/display_value/@value">.25</set>
 	<!--  -->
 	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/@blocked_tags">noMods</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.2</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.2</set>
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/display_value/@value">.2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='walking']/@value">.5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/passive_effect[@name='StaminaChangeOT'][@tags='running']/@value">.5</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']/effect_group/display_value/@value">.5</set>
 	<!--  -->
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">2</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']/@blocked_tags">noMods</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">1.5</set>
 	<!--  -->
-	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">4</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']/@blocked_tags">noMods</set>
+	<set xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">3</set>
 	<!--  -->
 	<set xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']/effect_group/passive_effect[@name='NoiseMultiplier']/@value">-.07</set>
 	<set xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']/effect_group/display_value/@value">-.08</set>
