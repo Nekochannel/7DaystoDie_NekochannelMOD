@@ -4197,8 +4197,8 @@
 	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='13,17.3']/@value">12,17</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@value='18,21']/@value">15,20</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='PhysicalDamageResist'][@tier='1,6']/@tier">1,8</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.041']/@value">0.044</set>
-	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.043,0.053']/@value">0.061</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.041']/@value">0.055</set>
+	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.043,0.053']/@value">0.075</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='BuffResistance'][@value='0.061,0.076']/@value">0.12</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='ElementalDamageResist'][@tier='1,6']/@tier">1,8</set>
 	<set xpath="/items/item/effect_group/passive_effect[@name='DegradationMax'][@tier='1,6']/@tier">1,8</set>
