@@ -4,13 +4,13 @@
 	
 	<entitygroup name="WildEnemyAnimals">
 		animalSnake, 3
-		animalCoyoteWeak, 10
-		animalRabbit, 26
-		animalChicken, 20
-		animalStag, 15
-		animalDoe, 15
+		animalCoyoteWeak, 4.5
+		animalRabbit, 35
+		animalChicken, 33
+		animalStag, 7
+		animalDoe, 7
 		animalChickenHostile, 10
-		animalBossChicken, 1
+		animalBossChicken, .5
 	</entitygroup>
 	<entitygroup name="WildEnemyAnimalsBurn">
 		animalSnake, 3
