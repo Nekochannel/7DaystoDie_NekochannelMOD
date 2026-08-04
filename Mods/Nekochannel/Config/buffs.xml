@@ -38,26 +38,26 @@
 		</effect_group>
 		
 		<effect_group>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugPainkillers"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugVitamins"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSteroids"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRecog"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugFortBites"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasAwesomeSauce"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasLearningElixir"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugAtomJunkies"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugCovertCats"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugEyeKandy"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHackers"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHealthBar"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugJailBreakers"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugNerdTats"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugOhShitzDrops"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRockBusters"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSkullCrushers"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSugarButts"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPumpkinCheesecake"/>
-			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffMegaCrush"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugPainkillers"><requirement name="CVarCompare" cvar="$buffDrugPainkillersDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugVitamins"><requirement name="CVarCompare" cvar="$buffDrugVitaminsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSteroids"><requirement name="CVarCompare" cvar="$buffDrugSteroidsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRecog"><requirement name="CVarCompare" cvar="$buffDrugRecogDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugFortBites"><requirement name="CVarCompare" cvar="$buffDrugFortBitesDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasAwesomeSauce"><requirement name="CVarCompare" cvar="$buffGrandpasAwesomeSauceDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrunkGrandpasLearningElixir"><requirement name="CVarCompare" cvar="$buffGrandpasLearningElixirDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugAtomJunkies"><requirement name="CVarCompare" cvar="$buffDrugAtomJunkiesDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugCovertCats"><requirement name="CVarCompare" cvar="$buffDrugCovertCatsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugEyeKandy"><requirement name="CVarCompare" cvar="$buffDrugEyeKandyDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHackers"><requirement name="CVarCompare" cvar="$buffDrugHackersDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugHealthBar"><requirement name="CVarCompare" cvar="$buffDrugHealthBarDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugJailBreakers"><requirement name="CVarCompare" cvar="$buffDrugJailBreakersDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugNerdTats"><requirement name="CVarCompare" cvar="$buffDrugNerdTatsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugOhShitzDrops"><requirement name="CVarCompare" cvar="$buffDrugOhShitzDropsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugRockBusters"><requirement name="CVarCompare" cvar="$buffDrugRockBustersDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSkullCrushers"><requirement name="CVarCompare" cvar="$buffDrugSkullCrushersDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffDrugSugarButts"><requirement name="CVarCompare" cvar="$buffDrugSugarButtsDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPumpkinCheesecake"><requirement name="CVarCompare" cvar="$buffPumpkinCheesecakeDuration" operation="GT" value="0"/></triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffMegaCrush"><requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="0"/></triggered_effect>
 		</effect_group>
 			
 			<effect_group>
@@ -400,8 +400,10 @@
 	
 	<set xpath="/buffs/buff[@name='buffNewbieCoat']/effect_group/passive_effect[@name='HealthChangeOT'][@value='2,2']/@value">10,10</set>
 	<insertBefore xpath="/buffs/buff[@name='buffNewbieCoat']/effect_group/passive_effect[@name='ExpDeficitPerDeathPercentage']">
-	<passive_effect name="HealthChangeOT" operation="base_add" value=".3"/>
-	<passive_effect name="StaminaLoss" operation="perc_add" value="-.5"/>
+		<passive_effect name="HealthChangeOT" operation="base_add" value=".3"/>
+		<passive_effect name="StaminaLoss" operation="perc_add" value="-.5"/>
+		<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.4"/>
+		<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.4"/>
 	</insertBefore>
 	<remove xpath="/buffs/buff[@name='buffNewbieCoat']/effect_group/passive_effect[@name='WaterChangeOT'][@duration='0,20']"/>
 	<remove xpath="/buffs/buff[@name='buffNewbieCoat']/effect_group/passive_effect[@name='FoodChangeOT'][@duration='0,20']"/>
@@ -428,6 +430,8 @@
 			
 			<passive_effect name="HealthChangeOT" operation="base_add" value=".1"/>
 			<passive_effect name="StaminaLoss" operation="perc_add" value="-.25"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.3"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.3"/>
 		</effect_group>
 	</buff>
 	
