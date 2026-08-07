@@ -644,8 +644,13 @@
 	<passive_effect name="HealthChangeOT" operation="base_add" level="5" value=".05"/>
 	<passive_effect name="StaminaChangeOT" operation="base_add" level="5" value=".6"/>
 	<passive_effect name="RunSpeed" operation="perc_add" level="5" value=".15"/>
-	</insertAfter>
 	
+		<triggered_effect trigger="onSelfProgressionUpdate" action="AddBuff" buff="buffInfectionImmunity">
+			<requirement name="ProgressionLevel" progression_name="perkFortitudeMastery" operation="GTE" value="2"/>
+			<requirement name="!HasBuff" buff="buffInfectionImmunity"/>
+		</triggered_effect>
+	</insertAfter>
+
 	
 	<!-- perkHealingFactor -->
 	
