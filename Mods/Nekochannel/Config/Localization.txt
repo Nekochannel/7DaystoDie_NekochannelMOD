@@ -495,6 +495,7 @@ perkStrengthMasteryRank4LongDesc,強さ特性の装備で敵を殺した後10秒
 perkStrengthMasteryRank5Desc,フォールアウト・オーバーロード
 perkStrengthMasteryRank5LongDesc,世紀末の覇者になりましょう。棍棒やスレッジハンマー、ショットガンのダメージ量が100%増加。
 
+perkFortitudeMasteryRank2LongDesc,あなたの免疫システムはまるで感染症を撃退する機械です！感染症の進行速度が半分になります。
 perkFortitudeMasteryRank4Desc,トリガーハッピー
 perkFortitudeMasteryRank4LongDesc,マシンガンに魅入られたあなたは、もっと撃ちまくりたい欲求を抑えきれず火薬や金属の匂いに敏感になりました。\n略奪時に弾薬の素材を多めに手に入れることができます。
 perkFortitudeMasteryRank5LongDesc,不屈の精神により、あなたの生き延びようとする意志を揺るがすものは何もありません。\n最大体力が50増加し、わずかに自然回復力が増加し走る速度が15%上がります。
@@ -981,3 +982,14 @@ animalBossBear,キンググリズリー
 noteDuke01Desc,★NekochannelMODの世界へようこそ★\n親切心から忠告しておくが、飲食をしないとスタミナは回復しないぞ。焚き火に当たるのもいいかもな。あと、お前の車のガソリンは頂いておいたぞ。 次はこんなに優しくはしないからな。
 
 buffNearDeathTraumaDesc,殺された夢を見てしまい、その恐怖から稼いだ経験値の一部が消え、生物への攻撃力が大幅に低下し戦いから逃げ腰になっています。\n\n次は死ぬ夢を見ることがないように頑張りましょう。
+
+buffInfection02UntreatedDesc,感染症が発症しています。このまま放置すると深刻な感染症につながり、死亡する可能性もあります。できるだけ早く抗生物質を飲みましょう。\nゾンビや動物の攻撃を受けると感染症が悪化します。\n\n機動力が下がり、敵への攻撃力が低下します。
+buffInfection02GetBetterDesc,感染症を治療しました。投薬を続行し、負傷箇所から目を離さないようにしましょう。\nゾンビや動物の攻撃を受けると感染症が悪化します。\n\n機動力が下がり、敵への攻撃力が低下しています。
+buffInfection03UntreatedDesc,命にかかわる深刻な感染症に罹患しています。即座に抗生物質を服用しましょう。\n\n機動力が下がり、敵への攻撃力が低下します。\n全特性 -1
+buffInfection03GetBetterDesc,命にかかわる深刻な感染症を治療しました。投薬を続行し、感染源との接触を避けましょう。\n\n機動力が下がり、敵への攻撃力が大きく低下します。\n全特性 -1
+buffInfection04Tooltip,感染症が致死的な状態になっています。もう助からないでしょう。
+
+
+
+
+
