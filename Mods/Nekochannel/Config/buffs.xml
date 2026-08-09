@@ -2025,7 +2025,7 @@
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="infectionCounter" operation="set" value="25">
 				<requirement name="!HasBuff" buff="buffInfectionMain"/>
 			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="infectionCounter" operation="add" value="250">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="infectionCounter" operation="add" value="500">
 				<requirement name="HasBuff" buff="buffInfectionMain"/>
 			</triggered_effect>
 			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInfectionMain"/>
