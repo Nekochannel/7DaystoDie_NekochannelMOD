@@ -647,7 +647,6 @@
 	
 		<triggered_effect trigger="onSelfProgressionUpdate" action="AddBuff" buff="buffInfectionImmunity">
 			<requirement name="ProgressionLevel" progression_name="perkFortitudeMastery" operation="GTE" value="2"/>
-			<requirement name="!HasBuff" buff="buffInfectionImmunity"/>
 		</triggered_effect>
 	</insertAfter>
 
