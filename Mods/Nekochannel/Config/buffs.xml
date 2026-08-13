@@ -198,7 +198,7 @@
 			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffStatusLowStamina05"/>
 		</effect_group>
 		<effect_group>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value="-8"/>
+			<passive_effect name="StaminaChangeOT" operation="base_add" value="-9.5"/>
 			<passive_effect name="Mobility" operation="base_add" value=".25"/> <!-- 0.7-1 -->
 			<passive_effect name="JumpStrength" operation="perc_add" value="0.05"/>
 			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".2"/>

@@ -14,15 +14,15 @@
 	</entitygroup>
 	<entitygroup name="WildEnemyAnimalsBurn">
 		animalSnake, 3
-		animalCoyoteWeak, 30
-		animalChicken, 25
+		animalCoyoteWeak, 20
+		animalChicken, 35
 		animalChickenHostile, 41
 		animalBossGrace, 1
 	</entitygroup>
 	<entitygroup name="WildEnemyAnimalsDesert">
-		animalWolf, 15
+		animalWolf, 10
 		animalCoyote, 69
-		animalChickenHostile, 15
+		animalChickenHostile, 20
 		animalBossVulture, 1
 	</entitygroup>
 	<entitygroup name="WildEnemyAnimalsSnow">
@@ -41,8 +41,8 @@
 		animalBossBear, 2
 		animalBossChicken, 2
 		zombieDemolition, 10
-		zombieMutated, 7
-		zombieMutatedFeral, 2
+		zombieMutated, 5
+		zombieMutatedFeral, 4
 		zombieMutatedRadiated, .6
 		zombieMutatedCharged, .2
 		zombieMutatedInfernal, .2
