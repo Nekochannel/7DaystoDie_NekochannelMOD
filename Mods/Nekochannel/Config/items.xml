@@ -2380,7 +2380,7 @@
 	<!--  -->
 	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">400</set>
 	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">80</set> <!-- 252-171-90 -->
-	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='RoundRayCount'][@operation='base_set']/@value">10</set>
+	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='RoundRayCount'][@operation='base_set']/@value">12</set>
 	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='MaxRange'][@operation='base_set']/@value">12</set>
 	<set xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='DamageFalloffRange'][@operation='base_set']/@value">2</set>
 	<insertAfter xpath="/items/item[@name='ammoShotgunShell']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']">
@@ -2396,7 +2396,7 @@
 
 	<!--  -->
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">400</set>
-	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">1500</set> <!-- 720-660-600 -->
+	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='EntityDamage'][@operation='base_set']/@value">1600</set> <!-- 720-660-600 -->
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='BlockDamage'][@operation='base_set']/@value">350</set>
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='MaxRange'][@operation='base_set']/@value">7</set>
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/effect_group/passive_effect[@name='DamageFalloffRange'][@operation='base_set']/@value">1</set>
